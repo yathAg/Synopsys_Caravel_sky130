@@ -1,0 +1,57 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : caravel
+Version: T-2022.03-SP5-6
+Date   : Fri Nov 29 01:33:49 2024
+****************************************
+
+
+Library(s) Used:
+
+    sky130_fd_sc_hd__tt_025C_1v80 (File: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hd__tt_025C_1v80.db)
+    sky130_fd_sc_hvl__tt_025C_3v30_lv1v80 (File: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db)
+    gtech (File: /usr/synopsys/syn/T-2022.03-SP5-6/libraries/syn/gtech.db)
+    sky130_fd_sc_hvl__tt_025C_3v30 (File: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30.db)
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =  35.3901 uW   (79%)
+  Net Switching Power  =   9.3753 uW   (21%)
+                         ---------
+Total Dynamic Power    =  44.7654 uW  (100%)
+
+Cell Leakage Power     = 174.7679 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            6.1702        6.1702e-06  (   0.01%)
+clock_network  3.5390e-02        8.6332e-03            0.5464        4.4024e-02  (  97.96%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000          108.7211        1.0872e-04  (   0.24%)
+combinational      0.0000        7.4208e-04           57.6251        7.9970e-04  (   1.78%)
+--------------------------------------------------------------------------------------------------
+Total          3.5390e-02 mW     9.3753e-03 mW       173.0629 nW     4.4938e-02 mW
+1

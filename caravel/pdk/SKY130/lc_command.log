@@ -1,0 +1,12 @@
+#@ # 
+#@ # Running lc_shell Version T-2022.03-SP5 for linux64 -- Oct 13, 2022
+#@ # Date:   Thu Nov 28 08:05:27 2024
+#@ # Run by: yatharth@sfalvsd
+#@ 
+
+read_lib /home/yatharth/vsd_sfal/pdk/sky130/sky130A/libs.ref/sky130_fd_sc_hvl/lib/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.lib
+read_lib /home/yatharth/vsd_sfal/pdk/sky130/sky130A/libs.ref/sky130_fd_sc_hvl/lib/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.lib
+read_lib /home/yatharth/vsd_sfal/pdk/sky130/sky130A/libs.ref/sky130_fd_sc_hvl/lib/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.lib
+write_lib sky130_fd_sc_hvl__tt_025C_3v30_lv1v80 -format db -output sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db
+cd ../..
+quit

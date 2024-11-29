@@ -1,0 +1,37 @@
+Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : caravel
+Version: T-2022.03-SP5-6
+Date   : Fri Nov 29 01:33:41 2024
+****************************************
+
+Library(s) Used:
+
+    sky130_fd_sc_hd__tt_025C_1v80 (File: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hd__tt_025C_1v80.db)
+    sky130_fd_sc_hvl__tt_025C_3v30_lv1v80 (File: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db)
+    gtech (File: /usr/synopsys/syn/T-2022.03-SP5-6/libraries/syn/gtech.db)
+    sky130_fd_sc_hvl__tt_025C_3v30 (File: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30.db)
+
+Number of ports:                        32327
+Number of nets:                        110885
+Number of cells:                       114108
+Number of combinational cells:          56032
+Number of sequential cells:             52290
+Number of macros/black boxes:            4228
+Number of buf/inv:                      11437
+Number of references:                       6
+
+Combinational area:              60454.620258
+Buf/Inv area:                    34800.063409
+Noncombinational area:          362752.907244
+Macro/Black Box area:            30286.546249
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                453494.073751
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+Information: This design contains black box (unknown) components. (RPT-8)
+1
