@@ -1,0 +1,15 @@
+#@ # 
+#@ # Running lc_shell Version T-2022.03-SP5 for linux64 -- Oct 13, 2022
+#@ # Date:   Sun Dec  1 00:31:41 2024
+#@ # Run by: yatharth@sfalvsd
+#@ 
+
+read_lib sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib
+write_lib sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30 -format db -output sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db
+read_lib sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib
+write_lib sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30 -format db -output sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db
+read_lib sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib
+write_lib sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30 -format db -output sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db
+source tcl.tcl
+source tcl.tcl
+quit

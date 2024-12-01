@@ -1,10 +1,10 @@
-[SCL] 11/29/2024 01:32:58 PID:947 Client:sfalvsd Authorization failed Synopsys-Release 2022.03
-[SCL] 11/29/2024 01:32:59 PID:947 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded Design-Compiler 2022.03
-[SCL] 11/29/2024 01:33:00 Checking status for feature Design-Compiler
-[SCL] 11/29/2024 01:33:00 PID:947 Client:sfalvsd Server:2021@3.7.156.91 Checkout succeeded Design-Compiler 2022.03
-[SCL] 11/29/2024 01:33:00 PID:947 Client:sfalvsd Authorization failed Synopsys 2022.03
-[SCL] 11/29/2024 01:33:00 PID:947 Client:sfalvsd Authorization failed DC-Debug 2022.03
-[SCL] 11/29/2024 01:33:00 PID:947 Client:sfalvsd Authorization failed DC-NXT-DPX-Beta 2022.03
+[SCL] 12/01/2024 01:36:52 PID:17863 Client:sfalvsd Authorization failed Synopsys-Release 2022.03
+[SCL] 12/01/2024 01:36:53 PID:17863 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded Design-Compiler 2022.03
+[SCL] 12/01/2024 01:36:53 Checking status for feature Design-Compiler
+[SCL] 12/01/2024 01:36:53 PID:17863 Client:sfalvsd Server:2021@3.7.156.91 Checkout succeeded Design-Compiler 2022.03
+[SCL] 12/01/2024 01:36:53 PID:17863 Client:sfalvsd Authorization failed Synopsys 2022.03
+[SCL] 12/01/2024 01:36:53 PID:17863 Client:sfalvsd Authorization failed DC-Debug 2022.03
+[SCL] 12/01/2024 01:36:53 PID:17863 Client:sfalvsd Authorization failed DC-NXT-DPX-Beta 2022.03
 
                            Design Compiler Graphical 
                                  DC Ultra (TM)
@@ -36,7 +36,7 @@
             Inclusivity and Diversity" (Refer to article 000036315 at
                         https://solvnetplus.synopsys.com)
 Initializing...
-[SCL] 11/29/2024 01:33:01 PID:947 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded DC-Expert 2022.03
+[SCL] 12/01/2024 01:36:54 PID:17863 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded DC-Expert 2022.03
 Initializing gui preferences from file  /home/yatharth/.synopsys_dc_gui/preferences.tcl
 # Define the root path
 set root_path "/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel"
@@ -47,8 +47,21 @@ set target_library "$root_path/pdk/SKY130/sky130_fd_sc_hd__tt_025C_1v80.db"
 set link_library "$root_path/pdk/SKY130/sky130_fd_sc_hd__tt_025C_1v80.db \
 $root_path/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30.db \
 $root_path/pdk/SKY130/sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib.db \
-$root_path/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db"
-/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hd__tt_025C_1v80.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db
+$root_path/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db \
+$root_path/pdk/SKY130/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db \
+$root_path/pdk/SKY130/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db \
+$root_path/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db \
+$root_path/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.db \
+$root_path/pdk/SKY130/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.db \
+$root_path/pdk/SKY130/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.db \
+$root_path/pdk/SKY130/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.db \
+$root_path/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.db \
+$root_path/pdk/SKY130/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db \
+$root_path/pdk/SKY130/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db \
+$root_path/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.db \
+$root_path/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.db \
+$root_path/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.db"
+/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hd__tt_025C_1v80.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.db
 # Specify the input Verilog directory and output paths
 set verilog_folder "$root_path/rtl"
 /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl
@@ -61,7 +74,7 @@ caravel
 set_app_var target_library $target_library
 /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hd__tt_025C_1v80.db
 set_app_var link_library "* $link_library"
-* /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hd__tt_025C_1v80.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db
+* /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hd__tt_025C_1v80.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.db  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.db
 # Read the Verilog files
 read_file $verilog_folder/defines.v
 Information: Inferring file format verilog based on file name extension(s). (UID-1034)
@@ -69,24 +82,50 @@ Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY
 Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30.db'
 Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib.db'
 Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.db'
+Loading db file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.db'
 Loading db file '/usr/synopsys/syn/T-2022.03-SP5-6/libraries/syn/gtech.db'
 Loading db file '/usr/synopsys/syn/T-2022.03-SP5-6/libraries/syn/standard.sldb'
   Loading link library 'sky130_fd_sc_hd__tt_025C_1v80'
   Loading link library 'sky130_fd_sc_hvl__tt_025C_3v30'
   Loading link library 'sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib'
   Loading link library 'sky130_fd_sc_hvl__tt_025C_3v30_lv1v80'
+  Loading link library 'sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30'
+  Loading link library 'sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30'
+  Loading link library 'sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30'
+  Loading link library 'sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30'
+  Loading link library 'sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30'
+  Loading link library 'sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30'
+  Loading link library 'sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30'
+  Loading link library 'sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30'
+  Loading link library 'sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30'
+  Loading link library 'sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30'
+  Loading link library 'sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30'
+  Loading link library 'sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30'
+  Loading link library 'sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30'
   Loading link library 'gtech'
 Loading verilog file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v'
 Detecting input file type automatically (-rtl or -netlist).
-[SCL] 11/29/2024 01:33:03 Checking status for feature HDL-Compiler
-[SCL] 11/29/2024 01:33:03 PID:947 Client:sfalvsd Server:2021@3.7.156.91 Checkout succeeded HDL-Compiler 2022.03
+[SCL] 12/01/2024 01:36:56 Checking status for feature HDL-Compiler
+[SCL] 12/01/2024 01:36:56 PID:17863 Client:sfalvsd Server:2021@3.7.156.91 Checkout succeeded HDL-Compiler 2022.03
 Running DC verilog reader
 Performing 'read' command.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v
 Reading with netlist reader (equivalent to -netlist option).
 Verilog netlist reader completed successfully.
 No designs were read
-read_file $verilog_folder -autoread -format verilog -top $top_module
+read_file $verilog_folder -autoread -define USE_POWER_PINS -format verilog -top $top_module
 == READ_FILE autoread for top design 'caravel' ==
 
 Starting READ_FILE autoread mode...
@@ -163,8 +202,42 @@ Information: Adding '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl
 Information: Adding '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/user_id_programming.v'.  (AUTOREAD-100)
 Information: Adding '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/user_id_textblock.v'.  (AUTOREAD-100)
 Information: Adding '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/xres_buf.v'.  (AUTOREAD-100)
-Error: Source sky130_fd_sc_hd__tapvpwrvgnd.v not found.  (AUTOREAD-200)
 Error: Source includes.v not found.  (AUTOREAD-200)
+Information: Scanning file { caravan_core.v }. (AUTOREAD-303)
+Information: Scanning file { caravan_logo.v }. (AUTOREAD-303)
+Information: Scanning file { caravan_motto.v }. (AUTOREAD-303)
+Information: Scanning file { caravan_netlists.v }. (AUTOREAD-303)
+Information: Scanning file { caravan_openframe.v }. (AUTOREAD-303)
+Information: Scanning file { caravan_power_routing.v }. (AUTOREAD-303)
+Information: Scanning file { caravel.v }. (AUTOREAD-303)
+Information: Scanning file { caravel_clocking.v }. (AUTOREAD-303)
+Information: Scanning file { caravel_core.v }. (AUTOREAD-303)
+Information: Scanning file { caravel_logo.v }. (AUTOREAD-303)
+Information: Scanning file { caravel_motto.v }. (AUTOREAD-303)
+Information: Scanning file { caravel_netlists.v }. (AUTOREAD-303)
+Information: Scanning file { caravel_openframe.v }. (AUTOREAD-303)
+Information: Scanning file { caravel_power_routing.v }. (AUTOREAD-303)
+Information: Scanning file { chip_io.v }. (AUTOREAD-303)
+Warning: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/chip_io.v:291: error at or near '``' prevents file scanning. (AUTOREAD-304)
+Information: Scanning file { chip_io_alt.v }. (AUTOREAD-303)
+Warning: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/chip_io_alt.v:357: error at or near '``' prevents file scanning. (AUTOREAD-304)
+Information: Scanning file { chip_io_openframe.v }. (AUTOREAD-303)
+Information: Scanning file { clock_div.v }. (AUTOREAD-303)
+Information: Scanning file { constant_block.v }. (AUTOREAD-303)
+Information: Scanning file { copyright_block.v }. (AUTOREAD-303)
+Information: Scanning file { copyright_block_a.v }. (AUTOREAD-303)
+Information: Scanning file { debug_regs.v }. (AUTOREAD-303)
+Information: Scanning file { digital_pll.v }. (AUTOREAD-303)
+Information: Scanning file { empty_macro.v }. (AUTOREAD-303)
+Information: Scanning file { gpio_control_block.v }. (AUTOREAD-303)
+Information: Scanning file { gpio_defaults_block.v }. (AUTOREAD-303)
+Information: Scanning file { RAM128.v }. (AUTOREAD-303)
+Information: Scanning file { RAM256.v }. (AUTOREAD-303)
+Information: Scanning file { VexRiscv_LiteDebug.v }. (AUTOREAD-303)
+Information: Scanning file { VexRiscv_MinDebug.v }. (AUTOREAD-303)
+Information: Scanning file { VexRiscv_MinDebugCache.v }. (AUTOREAD-303)
+Information: Scanning file { __openframe_project_wrapper.v }. (AUTOREAD-303)
+Information: Scanning file { __uprj_analog_netlists.v }. (AUTOREAD-303)
 Information: Scanning file { __uprj_netlists.v }. (AUTOREAD-303)
 Information: Scanning file { __user_project_gpio_example.v }. (AUTOREAD-303)
 Information: Scanning file { __user_project_la_example.v }. (AUTOREAD-303)
@@ -191,59 +264,21 @@ Information: Scanning file { openframe_netlists.v }. (AUTOREAD-303)
 Information: Scanning file { picorv32.v }. (AUTOREAD-303)
 Information: Scanning file { simple_por.v }. (AUTOREAD-303)
 Information: Scanning file { sky130_fd_sc_hd__tapvpwrvgnd_1.v }. (AUTOREAD-303)
-Included file sky130_fd_sc_hd__tapvpwrvgnd.v not found
 Information: Scanning file { spare_logic_block.v }. (AUTOREAD-303)
 Information: Scanning file { toplevel_cocotb.v }. (AUTOREAD-303)
 Included file includes.v not found
 Information: Scanning file { user_id_programming.v }. (AUTOREAD-303)
 Information: Scanning file { user_id_textblock.v }. (AUTOREAD-303)
 Information: Scanning file { xres_buf.v }. (AUTOREAD-303)
-Information: Scanning file { chip_io.v }. (AUTOREAD-303)
-Warning: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/chip_io.v:291: error at or near '``' prevents file scanning. (AUTOREAD-304)
-Information: Scanning file { chip_io_alt.v }. (AUTOREAD-303)
-Warning: /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/chip_io_alt.v:357: error at or near '``' prevents file scanning. (AUTOREAD-304)
-Information: Scanning file { chip_io_openframe.v }. (AUTOREAD-303)
-Information: Scanning file { clock_div.v }. (AUTOREAD-303)
-Information: Scanning file { constant_block.v }. (AUTOREAD-303)
-Information: Scanning file { copyright_block.v }. (AUTOREAD-303)
-Information: Scanning file { copyright_block_a.v }. (AUTOREAD-303)
-Information: Scanning file { debug_regs.v }. (AUTOREAD-303)
-Information: Scanning file { digital_pll.v }. (AUTOREAD-303)
-Information: Scanning file { empty_macro.v }. (AUTOREAD-303)
-Information: Scanning file { gpio_control_block.v }. (AUTOREAD-303)
-Information: Scanning file { gpio_defaults_block.v }. (AUTOREAD-303)
-Information: Scanning file { caravan_core.v }. (AUTOREAD-303)
-Information: Scanning file { caravan_logo.v }. (AUTOREAD-303)
-Information: Scanning file { caravan_motto.v }. (AUTOREAD-303)
-Information: Scanning file { caravan_netlists.v }. (AUTOREAD-303)
-Information: Scanning file { caravan_openframe.v }. (AUTOREAD-303)
-Information: Scanning file { caravan_power_routing.v }. (AUTOREAD-303)
-Information: Scanning file { caravel.v }. (AUTOREAD-303)
-Information: Scanning file { caravel_clocking.v }. (AUTOREAD-303)
-Information: Scanning file { caravel_core.v }. (AUTOREAD-303)
-Information: Scanning file { caravel_logo.v }. (AUTOREAD-303)
-Information: Scanning file { caravel_motto.v }. (AUTOREAD-303)
-Information: Scanning file { caravel_netlists.v }. (AUTOREAD-303)
-Information: Scanning file { caravel_openframe.v }. (AUTOREAD-303)
-Information: Scanning file { caravel_power_routing.v }. (AUTOREAD-303)
-Information: Scanning file { RAM128.v }. (AUTOREAD-303)
-Information: Scanning file { RAM256.v }. (AUTOREAD-303)
-Information: Scanning file { VexRiscv_LiteDebug.v }. (AUTOREAD-303)
-Information: Scanning file { VexRiscv_MinDebug.v }. (AUTOREAD-303)
-Information: Scanning file { VexRiscv_MinDebugCache.v }. (AUTOREAD-303)
-Information: Scanning file { __openframe_project_wrapper.v }. (AUTOREAD-303)
-Information: Scanning file { __uprj_analog_netlists.v }. (AUTOREAD-303)
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/digital_pll_controller.v
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/constant_block.v
 Presto compilation completed successfully.
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/ring_osc2x13.v
-Presto compilation completed successfully.
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/digital_pll.v
-Opening include file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/digital_pll_controller.v
-Opening include file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/ring_osc2x13.v
-Presto compilation completed successfully.
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/user_id_programming.v
-Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/user_id_programming.v:50: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
-Presto compilation completed successfully.
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/chip_io.v
+Opening include file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/pads.v
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/chip_io.v:291: The ' `` outside of a `define' syntax is non-standard.  (VER-730)
+Error:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/chip_io.v:291: The macro '``' has not been defined. (VER-913)
+*** Presto compilation terminated with 1 errors. ***
+Warning: Analyze command for file chip_io.v did not succeed. (AUTOREAD-402)
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/clock_div.v
 Presto compilation completed successfully.
@@ -257,13 +292,17 @@ Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rt
 Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/mgmt_protect.v
 Presto compilation completed successfully.
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/gpio_logic_high.v
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/housekeeping_spi.v
 Presto compilation completed successfully.
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/gpio_control_block.v
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/housekeeping.v
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/housekeeping.v:845: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
 Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/VexRiscv_MinDebugCache.v
 Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/VexRiscv_MinDebugCache.v:750: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
 Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/VexRiscv_MinDebugCache.v:751: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Presto compilation completed successfully.
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/sky130_fd_sc_hd__tapvpwrvgnd_1.v
 Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/RAM128.v
 Presto compilation completed successfully.
@@ -1203,22 +1242,35 @@ Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/mgmt_core.
 Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/mgmt_core_wrapper.v
 Presto compilation completed successfully.
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/digital_pll_controller.v
+Presto compilation completed successfully.
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/ring_osc2x13.v
+Presto compilation completed successfully.
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/digital_pll.v
+Opening include file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/digital_pll_controller.v
+Opening include file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/ring_osc2x13.v
+Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/mprj_io_buffer.v
 Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/gpio_defaults_block.v
 Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/gpio_defaults_block.v:56: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
 Presto compilation completed successfully.
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/xres_buf.v
-Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/xres_buf.v:30: Empty port in module declaration. (VER-986)
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/gpio_logic_high.v
+Presto compilation completed successfully.
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/gpio_control_block.v
+Presto compilation completed successfully.
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/user_id_programming.v
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/user_id_programming.v:50: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
 Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:52: delay controls are ignored for synthesis. (VER-176)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:52: Nonblocking assignments and blocking delays in the same process; potential simulation or synthesis mismatch. (VER-140)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:57: delay controls are ignored for synthesis. (VER-176)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:57: Nonblocking assignments and blocking delays in the same process; potential simulation or synthesis mismatch. (VER-140)
 Presto compilation completed successfully.
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/housekeeping_spi.v
-Presto compilation completed successfully.
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/housekeeping.v
-Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/housekeeping.v:845: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/xres_buf.v
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/xres_buf.v:30: Empty port in module declaration. (VER-986)
 Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/spare_logic_block.v
 Presto compilation completed successfully.
@@ -1228,8 +1280,8 @@ Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/manual_power_connections.v
 Information:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/manual_power_connections.v:1: List () of one, unnamed, port is ignored. (VER-988)
 Presto compilation completed successfully.
-Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/user_defines.v
+Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/caravel_core.v
 Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/caravel_core.v:330: the undeclared symbol 'qspi_enabled' assumed to have the default net type, which is 'wire'. (VER-936)
 Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/caravel_core.v:331: the undeclared symbol 'uart_enabled' assumed to have the default net type, which is 'wire'. (VER-936)
@@ -1272,11 +1324,16 @@ Presto compilation completed successfully.
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/defines.v
 Compiling source file /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/caravel.v
 Presto compilation completed successfully.
-Elaborating top design caravel
+Autoread cannot elaborate due previous unsolved errors.
+*** Autoread command terminated with errors. ***
+# Elaborate and link the design
+elaborate $top_module
 Running PRESTO HDLC
 Presto compilation completed successfully. (caravel)
 Elaborated 1 design.
 Current design is now 'caravel'.
+Information: Building the design 'chip_io'. (HDL-193)
+Warning: Cannot find the design 'chip_io' in the library 'WORK'. (LBR-1)
 Information: Building the design 'caravel_core'. (HDL-193)
 Presto compilation completed successfully. (caravel_core)
 Information: Building the design 'copyright_block'. (HDL-193)
@@ -1487,11 +1544,29 @@ Information: Building the design 'user_id_programming' instantiated from design 
 Presto compilation completed successfully. (user_id_programming_00000000)
 Information: Building the design 'simple_por'. (HDL-193)
 Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:39: The statements in initial blocks are ignored. (VER-281)
-Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:50: The statements in initial blocks are ignored. (VER-281)
-Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:63: Net inode connected to instance hystbuf1 is declared as reg data type but is not driven by an always block. (VER-1004)
-Presto compilation completed successfully. (simple_por)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:56: Net inode or a directly connected net may be driven by more than one process or block. (ELAB-405)
+
+Inferred memory devices in process
+	in routine simple_por line 48 in file
+		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      inode_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine simple_por line 56 in file
+		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     inode_reg2      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Error:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:56: Net 'inode' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+*** Presto compilation terminated with 1 errors. ***
 Information: Building the design 'xres_buf'. (HDL-193)
-Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/xres_buf.v:21: Port number 3 of 'xres_buf' was named 'Port3'. (VER-441)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/xres_buf.v:21: Port number 7 of 'xres_buf' was named 'Port7'. (VER-441)
 Presto compilation completed successfully. (xres_buf)
 Information: Building the design 'spare_logic_block'. (HDL-193)
 Presto compilation completed successfully. (spare_logic_block)
@@ -3629,7 +3704,7 @@ Presto compilation completed successfully. (start_stage)
 Information: Building the design 'gpio_logic_high'. (HDL-193)
 Presto compilation completed successfully. (gpio_logic_high)
 Information: Building the design 'sky130_fd_sc_hd__tapvpwrvgnd_1'. (HDL-193)
-Warning: Cannot find the design 'sky130_fd_sc_hd__tapvpwrvgnd_1' in the library 'WORK'. (LBR-1)
+Presto compilation completed successfully. (sky130_fd_sc_hd__tapvpwrvgnd_1)
 Information: Building the design 'sky130_fd_sc_hd__fill_2'. (HDL-193)
 Warning: Cannot find the design 'sky130_fd_sc_hd__fill_2' in the library 'WORK'. (LBR-1)
 Information: Building the design 'InstructionCache'. (HDL-193)
@@ -3708,24 +3783,12 @@ Statistics for MUX_OPs
 | InstructionCache/4426 |   16   |   32    |      4       |
 ===========================================================
 Presto compilation completed successfully. (InstructionCache)
+Information: Building the design 'sky130_fd_sc_hd__tapvpwrvgnd'. (HDL-193)
+Warning: Cannot find the design 'sky130_fd_sc_hd__tapvpwrvgnd' in the library 'WORK'. (LBR-1)
 Information: Verilog connection found to PG pin chip_core/soc/core/RAM128/A0BUF[0].cell/VGND. The Verilog reader will use PG netlist mode. (UPF-711)
 Note - message 'UPF-711' limit (1) exceeded.  Remainder will be suppressed.
-Error: The power pin VGND on the cell chip_core/mgmt_buffers/user_to_mprj_in_gates[0] is unconnected. (UPF-581)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Autoread command completed successfully.
-# Elaborate and link the design
-elaborate $top_module
-Running PRESTO HDLC
-Presto compilation completed successfully. (caravel)
-Warning: Overwriting design file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/caravel.db'. (DDB-24)
-Elaborated 1 design.
-Current design is now 'caravel'.
-Information: Building the design 'sky130_fd_sc_hd__tapvpwrvgnd_1'. (HDL-193)
-Warning: Cannot find the design 'sky130_fd_sc_hd__tapvpwrvgnd_1' in the library 'WORK'. (LBR-1)
-Information: Building the design 'sky130_fd_sc_hd__fill_2'. (HDL-193)
-Warning: Cannot find the design 'sky130_fd_sc_hd__fill_2' in the library 'WORK'. (LBR-1)
-Error: The power pin VGND on the cell chip_core/mgmt_buffers/user_to_mprj_in_gates[0] is unconnected. (UPF-581)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Error: The power pin VGND on the cell chip_core/pll/ringosc/ibufp00 is unconnected. (UPF-581)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 1
 link
 
@@ -3737,46 +3800,85 @@ link
   sky130_fd_sc_hvl__tt_025C_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30.db
   sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib.db
   sky130_fd_sc_hvl__tt_025C_3v30_lv1v80 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db
+  sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db
+  sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db
+  sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db
+  sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.db
+  sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.db
+  sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.db
+  sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.db
+  sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.db
+  sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db
+  sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db
+  sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.db
+  sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.db
+  sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 (library) /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.db
 
-Information: Building the design 'sky130_fd_sc_hd__tapvpwrvgnd_1'. (HDL-193)
-Warning: Cannot find the design 'sky130_fd_sc_hd__tapvpwrvgnd_1' in the library 'WORK'. (LBR-1)
+Information: Building the design 'chip_io'. (HDL-193)
+Warning: Cannot find the design 'chip_io' in the library 'WORK'. (LBR-1)
+Information: Building the design 'simple_por'. (HDL-193)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:39: The statements in initial blocks are ignored. (VER-281)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:56: Net inode or a directly connected net may be driven by more than one process or block. (ELAB-405)
+
+Inferred memory devices in process
+	in routine simple_por line 48 in file
+		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      inode_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine simple_por line 56 in file
+		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     inode_reg2      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Error:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:56: Net 'inode' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'sky130_fd_sc_hd__tapvpwrvgnd'. (HDL-193)
+Warning: Cannot find the design 'sky130_fd_sc_hd__tapvpwrvgnd' in the library 'WORK'. (LBR-1)
 Information: Building the design 'sky130_fd_sc_hd__fill_2'. (HDL-193)
 Warning: Cannot find the design 'sky130_fd_sc_hd__fill_2' in the library 'WORK'. (LBR-1)
-Warning: Unable to resolve reference 'sky130_fd_sc_hd__tapvpwrvgnd_1' in 'spare_logic_block'. (LINK-5)
-Warning: Unable to resolve reference 'sky130_fd_sc_hd__tapvpwrvgnd_1' in 'RAM128'. (LINK-5)
+Warning: Unable to resolve reference 'chip_io' in 'caravel'. (LINK-5)
+Warning: Unable to resolve reference 'simple_por' in 'caravel_core'. (LINK-5)
+Warning: Unable to resolve reference 'sky130_fd_sc_hd__tapvpwrvgnd' in 'sky130_fd_sc_hd__tapvpwrvgnd_1'. (LINK-5)
 Warning: Unable to resolve reference 'sky130_fd_sc_hd__fill_2' in 'RAM128'. (LINK-5)
-Error: The power pin VGND on the cell chip_core/mgmt_buffers/user_to_mprj_in_gates[0] is unconnected. (UPF-581)
+Error: The power pin VGND on the cell chip_core/pll/ringosc/ibufp00 is unconnected. (UPF-581)
 0
 read_sdc /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/synth/caravel.sdc
 
 Reading SDC version 2.1...
 [INFO]: IO[4] is set as: SCK
 [INFO]: GPIOs mode is set as: OUT
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 [INFO]: System clock period: 25
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
 [INFO]: Clock transition range: 1 : 1.5
 Warning: Can't find object 'chip_core/housekeeping/_6817_/Q' in design 'caravel'. (UID-95)
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Warning: It is dangerous to create a clock source on inout port 'mprj_io[4]'. (UID-376)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Warning: Can't find object 'padframe/clock_pad/DM[2]' in design 'caravel'. (UID-95)
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
 Warning: Can't find object 'padframe/clock_pad/DM[1]' in design 'caravel'. (UID-95)
@@ -3801,74 +3903,74 @@ Warning: Can't find object 'padframe/*mprj*/DM[0]' in design 'caravel'. (UID-95)
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
 Warning: Can't find object 'padframe/*mprj*/OE_N' in design 'caravel'. (UID-95)
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Warning: Can't find object 'padframe/mprj_pads.area1_io_pad[4]/DM[2]' in design 'caravel'. (UID-95)
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
 Warning: Can't find object 'padframe/mprj_pads.area1_io_pad[4]/DM[1]' in design 'caravel'. (UID-95)
@@ -3893,46 +3995,46 @@ Warning: Can't find object 'padframe/mprj_pads.area1_io_pad[2]/DM[0]' in design 
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
 Warning: Can't find object 'padframe/mprj_pads.area1_io_pad[2]/INP_DIS' in design 'caravel'. (UID-95)
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Warning: Can't find object 'padframe/flash_*pad/DM[2]' in design 'caravel'. (UID-95)
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
 Warning: Can't find object 'padframe/flash_*pad/DM[1]' in design 'caravel'. (UID-95)
@@ -3952,14 +4054,14 @@ Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
 [INFO]: Flash interface transition range: 4 : 6
 [INFO]: Flash interface cap load range: 6 : 8
 [INFO]: Flash interface delay: input 4 output 4
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Warning: Can't find object 'padframe/gpio_pad/DM[2]' in design 'caravel'. (UID-95)
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
 Warning: Can't find object 'padframe/gpio_pad/DM[1]' in design 'caravel'. (UID-95)
@@ -3968,42 +4070,68 @@ Warning: Can't find object 'padframe/gpio_pad/DM[0]' in design 'caravel'. (UID-9
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
 Warning: Can't find object 'padframe/gpio_pad/INP_DIS' in design 'caravel'. (UID-95)
 Error: Value for list 'port_or_pin_list' must have 1 elements. (CMD-036)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Current design is 'caravel'.
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 [INFO]: Setting derate factor to: 3.75 %
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 1
 # Run compile_ultra for optimization
 compile_ultra
 Loading db file '/usr/synopsys/syn/T-2022.03-SP5-6/libraries/syn/dw_foundation.sldb'
 Warning: DesignWare synthetic library dw_foundation.sldb is added to the synthetic_library in the current command. (UISN-40)
-Information: Building the design 'sky130_fd_sc_hd__tapvpwrvgnd_1'. (HDL-193)
-Warning: Cannot find the design 'sky130_fd_sc_hd__tapvpwrvgnd_1' in the library 'WORK'. (LBR-1)
+Information: Building the design 'chip_io'. (HDL-193)
+Warning: Cannot find the design 'chip_io' in the library 'WORK'. (LBR-1)
+Information: Building the design 'simple_por'. (HDL-193)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:39: The statements in initial blocks are ignored. (VER-281)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:56: Net inode or a directly connected net may be driven by more than one process or block. (ELAB-405)
+
+Inferred memory devices in process
+	in routine simple_por line 48 in file
+		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      inode_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine simple_por line 56 in file
+		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     inode_reg2      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Error:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:56: Net 'inode' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'sky130_fd_sc_hd__tapvpwrvgnd'. (HDL-193)
+Warning: Cannot find the design 'sky130_fd_sc_hd__tapvpwrvgnd' in the library 'WORK'. (LBR-1)
 Information: Building the design 'sky130_fd_sc_hd__fill_2'. (HDL-193)
 Warning: Cannot find the design 'sky130_fd_sc_hd__fill_2' in the library 'WORK'. (LBR-1)
-Warning: Unable to resolve reference 'sky130_fd_sc_hd__tapvpwrvgnd_1' in 'spare_logic_block'. (LINK-5)
-Warning: Unable to resolve reference 'sky130_fd_sc_hd__tapvpwrvgnd_1' in 'RAM128'. (LINK-5)
+Warning: Unable to resolve reference 'chip_io' in 'caravel'. (LINK-5)
+Warning: Unable to resolve reference 'simple_por' in 'caravel_core'. (LINK-5)
+Warning: Unable to resolve reference 'sky130_fd_sc_hd__tapvpwrvgnd' in 'sky130_fd_sc_hd__tapvpwrvgnd_1'. (LINK-5)
 Warning: Unable to resolve reference 'sky130_fd_sc_hd__fill_2' in 'RAM128'. (LINK-5)
-Error: The power pin VGND on the cell chip_core/mgmt_buffers/user_to_mprj_in_gates[0] is unconnected. (UPF-581)
+Error: The power pin VGND on the cell chip_core/pll/ringosc/ibufp00 is unconnected. (UPF-581)
 Warning: PG netlist to UPF conversion is not done, as there is no UPF data. (UPF-440)
 0
 # Report data
 report_qor > "$root_path/out/synth/qor_post_synth.rpt"
-[SCL] 11/29/2024 01:33:28 PID:947 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded DesignWare 2022.03
-[SCL] 11/29/2024 01:33:28 PID:947 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded DC-Ultra-Opt 2022.03
-[SCL] 11/29/2024 01:33:29 PID:947 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded DC-Ultra-Features 2022.03
-[SCL] 11/29/2024 01:33:29 PID:947 Client:sfalvsd Authorization failed DesignWare-Foundation-Ultra 2022.03
-[SCL] 11/29/2024 01:33:29 Checking status for feature DesignWare
-[SCL] 11/29/2024 01:33:29 PID:947 Client:sfalvsd Server:2021@3.7.156.91 Checkout succeeded DesignWare 2022.03
+[SCL] 12/01/2024 01:37:27 PID:17863 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded DesignWare 2022.03
+[SCL] 12/01/2024 01:37:27 PID:17863 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded DC-Ultra-Opt 2022.03
+[SCL] 12/01/2024 01:37:27 PID:17863 Client:sfalvsd Server:2021@3.7.156.91 Authorization succeeded DC-Ultra-Features 2022.03
+[SCL] 12/01/2024 01:37:27 PID:17863 Client:sfalvsd Authorization failed DesignWare-Foundation-Ultra 2022.03
+[SCL] 12/01/2024 01:37:27 Checking status for feature DesignWare
+[SCL] 12/01/2024 01:37:27 PID:17863 Client:sfalvsd Server:2021@3.7.156.91 Checkout succeeded DesignWare 2022.03
 report_area > "$root_path/out/synth/area_post_synth.rpt"
 report_power > "$root_path/out/synth/power_post_synth.rpt"
 # Write out the synthesized netlist
 write -format verilog -hierarchy -output $output_file
-Warning: Design 'caravel' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Writing verilog file '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/out/synth/output_file.v'.
 Warning: Module RAM256 contains unmapped components.  The output netlist might not be read back into the system. (VO-12)
 Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
@@ -4022,9 +4150,9 @@ Warning: Module gpio_control_block contains unmapped components.  The output net
 # Exit the DC Shell
 quit
 
-Memory usage for this session 404 Mbytes.
-Memory usage for this session including child processes 404 Mbytes.
-CPU usage for this session 52 seconds ( 0.01 hours ).
-Elapsed time for this session 57 seconds ( 0.02 hours ).
+Memory usage for this session 518 Mbytes.
+Memory usage for this session including child processes 518 Mbytes.
+CPU usage for this session 64 seconds ( 0.02 hours ).
+Elapsed time for this session 70 seconds ( 0.02 hours ).
 
 Thank you...

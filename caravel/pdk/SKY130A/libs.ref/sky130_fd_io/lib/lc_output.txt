@@ -1,0 +1,1420 @@
+ 
+                             Library Compiler (TM)
+                                 DesignWare (R)
+
+             Version T-2022.03-SP5 for linux64 - Oct 13, 2022 -SLE
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Initializing...
+lc_shell> read_lib sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.lib' ...
+Warning: Line 18, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Warning: Line 230, Cell 'sky130_fd_io__top_gpiov2', pin 'DM[2]', The port 'DM[2]' does not have the attribute 'rise_capacitance_range' specified. The value (0.006624, 0.006624) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 230, Cell 'sky130_fd_io__top_gpiov2', pin 'DM[2]', The port 'DM[2]' does not have the attribute 'fall_capacitance_range' specified. The value (0.006255, 0.006255) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 319, Cell 'sky130_fd_io__top_gpiov2', pin 'DM[1]', The port 'DM[1]' does not have the attribute 'rise_capacitance_range' specified. The value (0.004835, 0.004835) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 319, Cell 'sky130_fd_io__top_gpiov2', pin 'DM[1]', The port 'DM[1]' does not have the attribute 'fall_capacitance_range' specified. The value (0.004514, 0.004514) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 408, Cell 'sky130_fd_io__top_gpiov2', pin 'DM[0]', The port 'DM[0]' does not have the attribute 'rise_capacitance_range' specified. The value (0.006515, 0.006515) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 408, Cell 'sky130_fd_io__top_gpiov2', pin 'DM[0]', The port 'DM[0]' does not have the attribute 'fall_capacitance_range' specified. The value (0.006147, 0.006147) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 498, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD_A_NOESD_H', The pin 'PAD_A_NOESD_H' does not have a internal_power group. (LBDB-607)
+Warning: Line 504, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD_A_ESD_1_H', The pin 'PAD_A_ESD_1_H' does not have a internal_power group. (LBDB-607)
+Warning: Line 510, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD_A_ESD_0_H', The pin 'PAD_A_ESD_0_H' does not have a internal_power group. (LBDB-607)
+Warning: Line 556, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_VSWITCH_H', The port 'ENABLE_VSWITCH_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.028245, 0.028245) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 556, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_VSWITCH_H', The port 'ENABLE_VSWITCH_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.028236, 0.028236) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 577, Cell 'sky130_fd_io__top_gpiov2', pin 'ANALOG_EN', The port 'ANALOG_EN' does not have the attribute 'rise_capacitance_range' specified. The value (0.033150, 0.033150) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 577, Cell 'sky130_fd_io__top_gpiov2', pin 'ANALOG_EN', The port 'ANALOG_EN' does not have the attribute 'fall_capacitance_range' specified. The value (0.032418, 0.032418) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 598, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_VDDIO', The port 'ENABLE_VDDIO' does not have the attribute 'rise_capacitance_range' specified. The value (0.052525, 0.052525) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 598, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_VDDIO', The port 'ENABLE_VDDIO' does not have the attribute 'fall_capacitance_range' specified. The value (0.051413, 0.051413) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 626, Cell 'sky130_fd_io__top_gpiov2', pin 'ANALOG_SEL', The port 'ANALOG_SEL' does not have the attribute 'rise_capacitance_range' specified. The value (0.016840, 0.016840) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 626, Cell 'sky130_fd_io__top_gpiov2', pin 'ANALOG_SEL', The port 'ANALOG_SEL' does not have the attribute 'fall_capacitance_range' specified. The value (0.016681, 0.016681) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 647, Cell 'sky130_fd_io__top_gpiov2', pin 'OUT', The port 'OUT' does not have the attribute 'rise_capacitance_range' specified. The value (0.037418, 0.037418) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 647, Cell 'sky130_fd_io__top_gpiov2', pin 'OUT', The port 'OUT' does not have the attribute 'fall_capacitance_range' specified. The value (0.036167, 0.036167) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 736, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_INP_H', The port 'ENABLE_INP_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.012603, 0.012603) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 736, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_INP_H', The port 'ENABLE_INP_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.012006, 0.012006) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 757, Cell 'sky130_fd_io__top_gpiov2', pin 'VTRIP_SEL', The port 'VTRIP_SEL' does not have the attribute 'rise_capacitance_range' specified. The value (0.006908, 0.006908) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 757, Cell 'sky130_fd_io__top_gpiov2', pin 'VTRIP_SEL', The port 'VTRIP_SEL' does not have the attribute 'fall_capacitance_range' specified. The value (0.006543, 0.006543) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 846, Cell 'sky130_fd_io__top_gpiov2', pin 'ANALOG_POL', The port 'ANALOG_POL' does not have the attribute 'rise_capacitance_range' specified. The value (0.017763, 0.017763) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 846, Cell 'sky130_fd_io__top_gpiov2', pin 'ANALOG_POL', The port 'ANALOG_POL' does not have the attribute 'fall_capacitance_range' specified. The value (0.017592, 0.017592) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 867, Cell 'sky130_fd_io__top_gpiov2', pin 'IB_MODE_SEL', The port 'IB_MODE_SEL' does not have the attribute 'rise_capacitance_range' specified. The value (0.005502, 0.005502) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 867, Cell 'sky130_fd_io__top_gpiov2', pin 'IB_MODE_SEL', The port 'IB_MODE_SEL' does not have the attribute 'fall_capacitance_range' specified. The value (0.005179, 0.005179) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 956, Cell 'sky130_fd_io__top_gpiov2', pin 'HLD_H_N', The port 'HLD_H_N' does not have the attribute 'rise_capacitance_range' specified. The value (0.005650, 0.005650) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 956, Cell 'sky130_fd_io__top_gpiov2', pin 'HLD_H_N', The port 'HLD_H_N' does not have the attribute 'fall_capacitance_range' specified. The value (0.005053, 0.005053) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1346, Cell 'sky130_fd_io__top_gpiov2', pin 'OE_N', The port 'OE_N' does not have the attribute 'rise_capacitance_range' specified. The value (0.025205, 0.025205) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1346, Cell 'sky130_fd_io__top_gpiov2', pin 'OE_N', The port 'OE_N' does not have the attribute 'fall_capacitance_range' specified. The value (0.024019, 0.024019) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1346, Cell 'sky130_fd_io__top_gpiov2', pin 'OE_N', The pin 'OE_N' does not have a internal_power group. (LBDB-607)
+Warning: Line 1425, Cell 'sky130_fd_io__top_gpiov2', pin 'INP_DIS', The port 'INP_DIS' does not have the attribute 'rise_capacitance_range' specified. The value (0.006821, 0.006821) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1425, Cell 'sky130_fd_io__top_gpiov2', pin 'INP_DIS', The port 'INP_DIS' does not have the attribute 'fall_capacitance_range' specified. The value (0.006458, 0.006458) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1514, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_H', The port 'ENABLE_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.019112, 0.019112) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1514, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_H', The port 'ENABLE_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.017265, 0.017265) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1542, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_VDDA_H', The port 'ENABLE_VDDA_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.033093, 0.033093) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1542, Cell 'sky130_fd_io__top_gpiov2', pin 'ENABLE_VDDA_H', The port 'ENABLE_VDDA_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.032927, 0.032927) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1563, Cell 'sky130_fd_io__top_gpiov2', pin 'HLD_OVR', The port 'HLD_OVR' does not have the attribute 'rise_capacitance_range' specified. The value (0.007059, 0.007059) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1563, Cell 'sky130_fd_io__top_gpiov2', pin 'HLD_OVR', The port 'HLD_OVR' does not have the attribute 'fall_capacitance_range' specified. The value (0.006701, 0.006701) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1652, Cell 'sky130_fd_io__top_gpiov2', pin 'SLOW', The port 'SLOW' does not have the attribute 'rise_capacitance_range' specified. The value (0.014241, 0.014241) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1652, Cell 'sky130_fd_io__top_gpiov2', pin 'SLOW', The port 'SLOW' does not have the attribute 'fall_capacitance_range' specified. The value (0.013990, 0.013990) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1858, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'when' attribute (IB_MODE_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 1930, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'when' attribute (!IB_MODE_SEL & !VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 1930, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'when' attribute (!IB_MODE_SEL & !VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2001, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'when' attribute (!IB_MODE_SEL & VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2001, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'when' attribute (!IB_MODE_SEL & VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.042757' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.032270' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.012360' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.439434' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.429079' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.404242' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.355781' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.245215' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-1.043051' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-1.030795' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-1.010942' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.959405' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.849240' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.598452' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-0.029980' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-11.131545' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-11.131140' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-11.101233' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-11.048019' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-10.948344' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-10.686680' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-10.128700' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-18.333830' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-18.323414' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-18.323412' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-18.249725' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-18.155670' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-17.889290' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-17.351507' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-51.778522' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-51.778519' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-51.778515' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-51.749252' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-51.644386' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-51.354912' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-50.822262' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-185.218994' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-185.208313' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-185.185562' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-185.149628' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-184.992172' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-184.805222' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2017, Cell 'sky130_fd_io__top_gpiov2', pin 'IN', The 'values' attribute has a '-184.237244' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2235, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'when' attribute (IB_MODE_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2307, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'when' attribute (!IB_MODE_SEL & VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2307, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'when' attribute (!IB_MODE_SEL & VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.374786' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.361370' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.325778' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.236634' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.020012' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.978591' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.965514' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.929597' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.840463' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.627314' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-0.060942' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-11.066889' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-11.064111' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-11.017964' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-10.940091' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-10.722996' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-10.160610' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-8.541795' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-18.269304' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-18.269302' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-18.219913' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-18.131351' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-17.948118' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-17.368265' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-15.748919' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-51.775383' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-51.759960' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-51.701820' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-51.635288' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-51.408398' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-50.855423' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-49.236000' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-185.155136' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-185.109695' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-185.109680' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-185.016846' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-184.835297' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-184.205658' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2323, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'values' attribute has a '-182.585785' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2378, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'when' attribute (!IB_MODE_SEL & !VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2378, Cell 'sky130_fd_io__top_gpiov2', pin 'IN_H', The 'when' attribute (!IB_MODE_SEL & !VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2495, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The timing arc from 'OE_N' to 'PAD' is missing possible condition: "DM[1]' DM[2]'". (LBDB-1212)
+Warning: Line 2495, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The timing arc from 'OUT' to 'PAD' is missing possible condition: "DM[1]' DM[2]' OE_N'". (LBDB-1212)
+Warning: Line 2495, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', There is an extra timing arc between 'OUT' and 
+        'PAD' pins in the 'sky130_fd_io__top_gpiov2' cell. (LBDB-75)
+Warning: Line 2495, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 3186, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3186, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3186, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3186, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3207, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3207, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3207, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3207, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3207, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3258, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3258, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3258, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3258, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3293, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3293, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3293, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3293, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3293, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3344, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3344, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3344, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3344, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3379, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3379, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3379, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3379, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3379, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3408, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3408, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3408, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3408, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3429, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3429, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3429, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3429, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3429, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3458, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3458, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3458, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3458, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3509, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3509, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3509, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3509, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3509, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3560, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3560, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3560, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3560, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3595, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3595, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3595, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3595, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3624, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3624, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3624, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3624, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3645, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3645, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3645, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3645, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3645, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3696, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3696, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3696, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3696, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3696, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3725, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3725, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3725, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3725, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3725, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3746, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3746, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3746, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3746, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3746, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3797, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3797, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3797, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3797, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3797, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3818, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3818, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3818, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3818, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3853, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3853, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3853, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3853, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3904, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3904, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3904, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3904, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3939, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3939, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3939, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3939, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3968, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3968, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3968, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3968, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4003, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4003, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4003, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4003, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4038, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4038, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4038, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4038, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4038, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4067, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4067, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4067, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4067, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4088, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4088, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4088, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4088, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4139, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4139, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4139, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4139, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4190, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4190, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4190, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4190, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4225, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4225, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4225, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4225, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4225, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4246, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4246, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4246, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4246, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4275, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4275, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4275, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4275, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4275, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4296, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4296, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4296, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4296, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4347, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4347, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4347, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4347, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4347, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4398, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4398, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4398, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4398, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4449, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4449, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4449, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4449, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4500, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4500, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4500, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4500, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4529, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4529, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4529, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4529, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4580, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4580, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4580, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4580, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4580, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4631, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4631, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4631, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4631, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4631, Cell 'sky130_fd_io__top_gpiov2', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4689, Cell 'sky130_fd_io__top_gpiov2', pin 'TIE_LO_ESD', The pin 'TIE_LO_ESD' does not have a internal_power group. (LBDB-607)
+Warning: Line 4698, Cell 'sky130_fd_io__top_gpiov2', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'rise_capacitance_range' specified. The value (0.149251, 0.149251) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 4698, Cell 'sky130_fd_io__top_gpiov2', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'fall_capacitance_range' specified. The value (0.147827, 0.147827) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 4720, Cell 'sky130_fd_io__top_gpiov2', pin 'TIE_HI_ESD', The pin 'TIE_HI_ESD' does not have a internal_power group. (LBDB-607)
+Warning: Line 4729, Cell 'sky130_fd_io__top_gpiov2', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'rise_capacitance_range' specified. The value (0.142339, 0.142339) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 4729, Cell 'sky130_fd_io__top_gpiov2', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'fall_capacitance_range' specified. The value (0.140989, 0.140989) will be assigned to the attribute. (LBDB-1054)
+Technology library 'sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30' read successfully
+1
+lc_shell> write_lib sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30 -format db -output sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db
+Wrote the 'sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db' successfully
+1
+lc_shell> read_lib sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.lib' ...
+Information: Line 59, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 18, Overwrite 'nom_temperature' by default 'temperature' value 25.000000 defined
+        in 'operating_conditions'.  (LBDB-750)
+Warning: Line 179, Cell 'sky130_fd_io__top_ground_hvc_wpad', pin 'G_PAD', The pin 'G_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 179, Cell 'sky130_fd_io__top_ground_hvc_wpad', pin 'G_PAD', The 'G_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 188, Cell 'sky130_fd_io__top_ground_hvc_wpad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 196, Cell 'sky130_fd_io__top_ground_hvc_wpad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30' read successfully
+1
+lc_shell> write_lib sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30 -format db -output sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db
+Wrote the 'sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db' successfully
+1
+lc_shell> read_lib sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.lib' ...
+Information: Line 60, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 191, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The attribute 'always_on' has already been specified for 'pin' at line 186. Using the last definition encountered. (LBDB-261w)
+Warning: Line 184, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The port 'G_PAD' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 184, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The port 'G_PAD' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 184, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The pin 'G_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 184, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The 'G_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 196, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 196, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 196, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 206, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 206, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 206, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30' read successfully
+1
+lc_shell> write_lib sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30 -format db -output sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db
+Wrote the 'sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db' successfully
+1
+lc_shell> source tcl.tcl
+Error: unknown command 'read_liberty' (CMD-005)
+lc_shell> source tcl.tcl
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.lib' ...
+Information: Line 60, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 191, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The attribute 'always_on' has already been specified for 'pin' at line 186. Using the last definition encountered. (LBDB-261w)
+Warning: Line 184, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The port 'G_PAD' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 184, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The port 'G_PAD' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 184, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The pin 'G_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 184, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'G_PAD', The 'G_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 196, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 196, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 196, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 206, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 206, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 206, Cell 'sky130_fd_io__top_ground_lvc_wpad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30' read successfully
+Wrote the 'sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.db' successfully
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.lib' ...
+Information: Line 59, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 18, Overwrite 'nom_temperature' by default 'temperature' value 25.000000 defined
+        in 'operating_conditions'.  (LBDB-750)
+Warning: Line 197, Cell 'sky130_fd_io__top_power_lvc_wpad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 205, Cell 'sky130_fd_io__top_power_lvc_wpad', pin 'P_PAD', The pin 'P_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 205, Cell 'sky130_fd_io__top_power_lvc_wpad', pin 'P_PAD', The 'P_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 214, Cell 'sky130_fd_io__top_power_lvc_wpad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30' read successfully
+Wrote the 'sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.db' successfully
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.lib' ...
+Warning: Line 18, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Warning: Line 89, The 'GENERAL_CORE_VOLTAGE' output_voltage group is not used by any output pin in the library. (LBDB-611)
+Warning: Line 181, Cell 'sky130_fd_io__top_xres4v2', pin 'DISABLE_PULLUP_H', The port 'DISABLE_PULLUP_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.018729, 0.018729) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 181, Cell 'sky130_fd_io__top_xres4v2', pin 'DISABLE_PULLUP_H', The port 'DISABLE_PULLUP_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.017917, 0.017917) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 202, Cell 'sky130_fd_io__top_xres4v2', pin 'INP_SEL_H', The port 'INP_SEL_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.024898, 0.024898) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 202, Cell 'sky130_fd_io__top_xres4v2', pin 'INP_SEL_H', The port 'INP_SEL_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.024519, 0.024519) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 223, Cell 'sky130_fd_io__top_xres4v2', pin 'EN_VDDIO_SIG_H', The port 'EN_VDDIO_SIG_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.032961, 0.032961) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 223, Cell 'sky130_fd_io__top_xres4v2', pin 'EN_VDDIO_SIG_H', The port 'EN_VDDIO_SIG_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.031456, 0.031456) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 244, Cell 'sky130_fd_io__top_xres4v2', pin 'ENABLE_VDDIO', The port 'ENABLE_VDDIO' does not have the attribute 'rise_capacitance_range' specified. The value (0.017493, 0.017493) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 244, Cell 'sky130_fd_io__top_xres4v2', pin 'ENABLE_VDDIO', The port 'ENABLE_VDDIO' does not have the attribute 'fall_capacitance_range' specified. The value (0.017367, 0.017367) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 272, Cell 'sky130_fd_io__top_xres4v2', pin 'ENABLE_H', The port 'ENABLE_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.028834, 0.028834) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 272, Cell 'sky130_fd_io__top_xres4v2', pin 'ENABLE_H', The port 'ENABLE_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.028032, 0.028032) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 300, Cell 'sky130_fd_io__top_xres4v2', pin 'FILT_IN_H', The port 'FILT_IN_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.009441, 0.009441) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 300, Cell 'sky130_fd_io__top_xres4v2', pin 'FILT_IN_H', The port 'FILT_IN_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.009463, 0.009463) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 321, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The timing arc from 'PAD' to 'XRES_H_N' is missing possible condition: "ENABLE_H ENABLE_VDDIO' + ENABLE_H' ENABLE_VDDIO + INP_SEL_H". (LBDB-1212)
+Warning: Line 321, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', There is an extra timing arc between 'FILT_IN_H' and 
+        'XRES_H_N' pins in the 'sky130_fd_io__top_xres4v2' cell. (LBDB-75)
+Warning: Line 465, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & ENABLE_H & ENABLE_VDDIO & !EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 465, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & ENABLE_H & ENABLE_VDDIO & !EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 465, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & ENABLE_H & ENABLE_VDDIO & !EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 465, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & ENABLE_H & ENABLE_VDDIO & !EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 516, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & !ENABLE_H & !ENABLE_VDDIO & !EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 516, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & !ENABLE_H & !ENABLE_VDDIO & !EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 516, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & !ENABLE_H & !ENABLE_VDDIO & !EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 516, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & !ENABLE_H & !ENABLE_VDDIO & !EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 618, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & !ENABLE_H & !ENABLE_VDDIO & EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 618, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & !ENABLE_H & !ENABLE_VDDIO & EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 618, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & !ENABLE_H & !ENABLE_VDDIO & EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 618, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & !ENABLE_H & !ENABLE_VDDIO & EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 669, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & ENABLE_H & ENABLE_VDDIO & EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 669, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & ENABLE_H & ENABLE_VDDIO & EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 669, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & ENABLE_H & ENABLE_VDDIO & EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 669, Cell 'sky130_fd_io__top_xres4v2', pin 'XRES_H_N', The 'when' attribute (!INP_SEL_H & ENABLE_H & ENABLE_VDDIO & EN_VDDIO_SIG_H) uses pins
+        that cannot be found in function attribute (PAD). (LIBG-41)
+Warning: Line 717, Cell 'sky130_fd_io__top_xres4v2', pin 'PAD', The port 'PAD' does not have the attribute 'rise_capacitance_range' specified. The value (0.930286, 0.930286) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 717, Cell 'sky130_fd_io__top_xres4v2', pin 'PAD', The port 'PAD' does not have the attribute 'fall_capacitance_range' specified. The value (0.934543, 0.934543) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 717, Cell 'sky130_fd_io__top_xres4v2', pin 'PAD', The 'PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 740, Cell 'sky130_fd_io__top_xres4v2', pin 'PULLUP_H', The port 'PULLUP_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.109474, 0.109474) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 740, Cell 'sky130_fd_io__top_xres4v2', pin 'PULLUP_H', The port 'PULLUP_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.136220, 0.136220) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 762, Cell 'sky130_fd_io__top_xres4v2', pin 'TIE_WEAK_HI_H', The port 'TIE_WEAK_HI_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.091868, 0.091868) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 762, Cell 'sky130_fd_io__top_xres4v2', pin 'TIE_WEAK_HI_H', The port 'TIE_WEAK_HI_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.171782, 0.171782) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 784, Cell 'sky130_fd_io__top_xres4v2', pin 'TIE_LO_ESD', The pin 'TIE_LO_ESD' does not have a internal_power group. (LBDB-607)
+Warning: Line 793, Cell 'sky130_fd_io__top_xres4v2', pin 'TIE_HI_ESD', The pin 'TIE_HI_ESD' does not have a internal_power group. (LBDB-607)
+Warning: Line 802, Cell 'sky130_fd_io__top_xres4v2', pin 'PAD_A_ESD_H', The port 'PAD_A_ESD_H' does not have the attribute 'rise_capacitance_range' specified. The value (1.781897, 1.781897) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 802, Cell 'sky130_fd_io__top_xres4v2', pin 'PAD_A_ESD_H', The port 'PAD_A_ESD_H' does not have the attribute 'fall_capacitance_range' specified. The value (2.416589, 2.416589) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 824, Cell 'sky130_fd_io__top_xres4v2', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'rise_capacitance_range' specified. The value (0.050119, 0.050119) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 824, Cell 'sky130_fd_io__top_xres4v2', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'fall_capacitance_range' specified. The value (0.050121, 0.050121) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 846, Cell 'sky130_fd_io__top_xres4v2', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'rise_capacitance_range' specified. The value (0.045921, 0.045921) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 846, Cell 'sky130_fd_io__top_xres4v2', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'fall_capacitance_range' specified. The value (0.045944, 0.045944) will be assigned to the attribute. (LBDB-1054)
+Technology library 'sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30' read successfully
+Wrote the 'sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.db' successfully
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.lib' ...
+Warning: Line 18, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Warning: Line 230, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'DM[2]', The port 'DM[2]' does not have the attribute 'rise_capacitance_range' specified. The value (0.006624, 0.006624) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 230, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'DM[2]', The port 'DM[2]' does not have the attribute 'fall_capacitance_range' specified. The value (0.006255, 0.006255) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 319, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'DM[1]', The port 'DM[1]' does not have the attribute 'rise_capacitance_range' specified. The value (0.004835, 0.004835) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 319, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'DM[1]', The port 'DM[1]' does not have the attribute 'fall_capacitance_range' specified. The value (0.004514, 0.004514) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 408, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'DM[0]', The port 'DM[0]' does not have the attribute 'rise_capacitance_range' specified. The value (0.006515, 0.006515) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 408, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'DM[0]', The port 'DM[0]' does not have the attribute 'fall_capacitance_range' specified. The value (0.006147, 0.006147) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 498, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD_A_NOESD_H', The pin 'PAD_A_NOESD_H' does not have a internal_power group. (LBDB-607)
+Warning: Line 504, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD_A_ESD_1_H', The pin 'PAD_A_ESD_1_H' does not have a internal_power group. (LBDB-607)
+Warning: Line 510, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD_A_ESD_0_H', The pin 'PAD_A_ESD_0_H' does not have a internal_power group. (LBDB-607)
+Warning: Line 556, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_VSWITCH_H', The port 'ENABLE_VSWITCH_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.028245, 0.028245) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 556, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_VSWITCH_H', The port 'ENABLE_VSWITCH_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.028236, 0.028236) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 577, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ANALOG_EN', The port 'ANALOG_EN' does not have the attribute 'rise_capacitance_range' specified. The value (0.033150, 0.033150) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 577, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ANALOG_EN', The port 'ANALOG_EN' does not have the attribute 'fall_capacitance_range' specified. The value (0.032418, 0.032418) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 598, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_VDDIO', The port 'ENABLE_VDDIO' does not have the attribute 'rise_capacitance_range' specified. The value (0.052525, 0.052525) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 598, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_VDDIO', The port 'ENABLE_VDDIO' does not have the attribute 'fall_capacitance_range' specified. The value (0.051413, 0.051413) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 626, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ANALOG_SEL', The port 'ANALOG_SEL' does not have the attribute 'rise_capacitance_range' specified. The value (0.016840, 0.016840) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 626, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ANALOG_SEL', The port 'ANALOG_SEL' does not have the attribute 'fall_capacitance_range' specified. The value (0.016681, 0.016681) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 647, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'OUT', The port 'OUT' does not have the attribute 'rise_capacitance_range' specified. The value (0.037418, 0.037418) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 647, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'OUT', The port 'OUT' does not have the attribute 'fall_capacitance_range' specified. The value (0.036167, 0.036167) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 736, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_INP_H', The port 'ENABLE_INP_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.012603, 0.012603) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 736, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_INP_H', The port 'ENABLE_INP_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.012006, 0.012006) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 757, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'VTRIP_SEL', The port 'VTRIP_SEL' does not have the attribute 'rise_capacitance_range' specified. The value (0.006908, 0.006908) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 757, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'VTRIP_SEL', The port 'VTRIP_SEL' does not have the attribute 'fall_capacitance_range' specified. The value (0.006543, 0.006543) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 846, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ANALOG_POL', The port 'ANALOG_POL' does not have the attribute 'rise_capacitance_range' specified. The value (0.017763, 0.017763) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 846, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ANALOG_POL', The port 'ANALOG_POL' does not have the attribute 'fall_capacitance_range' specified. The value (0.017592, 0.017592) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 867, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IB_MODE_SEL', The port 'IB_MODE_SEL' does not have the attribute 'rise_capacitance_range' specified. The value (0.005502, 0.005502) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 867, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IB_MODE_SEL', The port 'IB_MODE_SEL' does not have the attribute 'fall_capacitance_range' specified. The value (0.005179, 0.005179) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 956, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'HLD_H_N', The port 'HLD_H_N' does not have the attribute 'rise_capacitance_range' specified. The value (0.005650, 0.005650) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 956, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'HLD_H_N', The port 'HLD_H_N' does not have the attribute 'fall_capacitance_range' specified. The value (0.005053, 0.005053) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1346, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'OE_N', The port 'OE_N' does not have the attribute 'rise_capacitance_range' specified. The value (0.025205, 0.025205) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1346, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'OE_N', The port 'OE_N' does not have the attribute 'fall_capacitance_range' specified. The value (0.024019, 0.024019) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1346, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'OE_N', The pin 'OE_N' does not have a internal_power group. (LBDB-607)
+Warning: Line 1425, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'INP_DIS', The port 'INP_DIS' does not have the attribute 'rise_capacitance_range' specified. The value (0.006821, 0.006821) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1425, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'INP_DIS', The port 'INP_DIS' does not have the attribute 'fall_capacitance_range' specified. The value (0.006458, 0.006458) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1514, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_H', The port 'ENABLE_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.019112, 0.019112) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1514, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_H', The port 'ENABLE_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.017265, 0.017265) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1542, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_VDDA_H', The port 'ENABLE_VDDA_H' does not have the attribute 'rise_capacitance_range' specified. The value (0.033093, 0.033093) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1542, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'ENABLE_VDDA_H', The port 'ENABLE_VDDA_H' does not have the attribute 'fall_capacitance_range' specified. The value (0.032927, 0.032927) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1563, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'HLD_OVR', The port 'HLD_OVR' does not have the attribute 'rise_capacitance_range' specified. The value (0.007059, 0.007059) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1563, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'HLD_OVR', The port 'HLD_OVR' does not have the attribute 'fall_capacitance_range' specified. The value (0.006701, 0.006701) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1652, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'SLOW', The port 'SLOW' does not have the attribute 'rise_capacitance_range' specified. The value (0.014241, 0.014241) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1652, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'SLOW', The port 'SLOW' does not have the attribute 'fall_capacitance_range' specified. The value (0.013990, 0.013990) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 1862, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'when' attribute (IB_MODE_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 1935, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'when' attribute (!IB_MODE_SEL & !VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 1935, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'when' attribute (!IB_MODE_SEL & !VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2006, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'when' attribute (!IB_MODE_SEL & VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2006, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'when' attribute (!IB_MODE_SEL & VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.042757' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.032270' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.012360' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.439434' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.429079' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.404242' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.355781' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.245215' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-1.043051' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-1.030795' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-1.010942' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.959405' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.849240' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.598452' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-0.029980' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-11.131545' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-11.131140' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-11.101233' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-11.048019' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-10.948344' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-10.686680' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-10.128700' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-18.333830' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-18.323414' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-18.323412' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-18.249725' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-18.155670' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-17.889290' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-17.351507' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-51.778522' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-51.778519' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-51.778515' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-51.749252' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-51.644386' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-51.354912' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-50.822262' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-185.218994' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-185.208313' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-185.185562' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-185.149628' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-184.992172' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-184.805222' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2022, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN', The 'values' attribute has a '-184.237244' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2247, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'when' attribute (IB_MODE_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2320, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'when' attribute (!IB_MODE_SEL & VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2320, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'when' attribute (!IB_MODE_SEL & VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.374786' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.361370' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.325778' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.236634' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.020012' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.978591' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.965514' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.929597' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.840463' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.627314' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-0.060942' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-11.066889' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-11.064111' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-11.017964' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-10.940091' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-10.722996' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-10.160610' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-8.541795' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-18.269304' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-18.269302' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-18.219913' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-18.131351' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-17.948118' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-17.368265' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-15.748919' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-51.775383' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-51.759960' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-51.701820' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-51.635288' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-51.408398' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-50.855423' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-49.236000' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-185.155136' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-185.109695' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-185.109680' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-185.016846' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-184.835297' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-184.205658' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2336, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'values' attribute has a '-182.585785' value,
+        which is less than '0.000000' the minimum recommended value of this attribute. (LBDB-272)
+Warning: Line 2391, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'when' attribute (!IB_MODE_SEL & !VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2391, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'IN_H', The 'when' attribute (!IB_MODE_SEL & !VTRIP_SEL) uses pins
+        that cannot be found in function attribute (PAD&!INP_DIS). (LIBG-41)
+Warning: Line 2508, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The timing arc from 'OE_N' to 'PAD' is missing possible condition: "DM[1]' DM[2]'". (LBDB-1212)
+Warning: Line 2508, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The timing arc from 'OUT' to 'PAD' is missing possible condition: "DM[1]' DM[2]' OE_N'". (LBDB-1212)
+Warning: Line 2508, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', There is an extra timing arc between 'OUT' and 
+        'PAD' pins in the 'sky130_ef_io__gpiov2_pad_wrapped' cell. (LBDB-75)
+Warning: Line 2508, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 3199, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3199, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3199, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3199, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3220, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3220, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3220, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3220, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3220, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3271, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3271, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3271, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3271, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3306, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3306, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3306, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3306, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3306, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3357, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3357, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3357, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3357, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3392, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3392, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3392, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3392, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3392, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3421, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3421, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3421, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3421, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3442, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3442, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3442, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3442, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3442, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3471, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3471, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3471, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3471, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3522, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3522, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3522, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3522, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3522, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3573, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3573, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3573, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3573, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3608, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3608, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3608, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3608, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3637, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3637, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3637, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3637, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3658, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3658, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3658, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3658, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3658, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3709, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3709, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3709, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3709, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3709, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3738, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3738, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3738, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3738, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3738, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3759, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3759, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3759, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3759, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3759, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3810, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3810, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3810, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3810, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3810, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 3831, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3831, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3831, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3831, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3866, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3866, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3866, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3866, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3917, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3917, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3917, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3917, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3952, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3952, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3952, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3952, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3981, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3981, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3981, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 3981, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4016, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4016, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4016, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4016, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4051, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4051, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4051, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4051, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4051, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4080, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4080, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4080, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4080, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4101, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4101, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4101, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4101, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4152, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4152, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4152, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4152, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4203, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4203, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4203, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4203, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4238, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4238, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4238, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4238, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4238, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4259, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4259, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4259, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4259, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & !DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4288, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4288, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4288, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4288, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4288, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4309, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4309, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4309, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4309, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4360, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4360, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4360, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4360, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4360, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4411, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4411, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4411, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4411, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4462, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4462, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4462, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4462, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4513, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4513, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4513, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4513, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & !DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4542, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4542, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4542, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4542, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (DM[2] & DM[1] & DM[0] & !SLOW) uses pins
+        that cannot be found in three_state attribute (OE_N). (LIBG-41)
+Warning: Line 4593, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4593, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4593, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4593, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4593, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4644, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4644, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4644, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4644, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4644, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'PAD', The 'when' attribute (!OE_N & !DM[2] & DM[1] & !DM[0] & SLOW) uses pins
+        that cannot be found in function attribute (OUT). (LIBG-41)
+Warning: Line 4702, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'TIE_LO_ESD', The pin 'TIE_LO_ESD' does not have a internal_power group. (LBDB-607)
+Warning: Line 4711, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'rise_capacitance_range' specified. The value (0.149251, 0.149251) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 4711, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'fall_capacitance_range' specified. The value (0.147827, 0.147827) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 4733, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'TIE_HI_ESD', The pin 'TIE_HI_ESD' does not have a internal_power group. (LBDB-607)
+Warning: Line 4742, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'rise_capacitance_range' specified. The value (0.142339, 0.142339) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 4742, Cell 'sky130_ef_io__gpiov2_pad_wrapped', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'fall_capacitance_range' specified. The value (0.140989, 0.140989) will be assigned to the attribute. (LBDB-1054)
+Technology library 'sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30' read successfully
+Wrote the 'sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.db' successfully
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib' ...
+Information: Line 59, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 18, Overwrite 'nom_temperature' by default 'temperature' value 25.000000 defined
+        in 'operating_conditions'.  (LBDB-750)
+Warning: Line 162, Cell 'sky130_ef_io__vccd_lvc_clamped_pad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 170, Cell 'sky130_ef_io__vccd_lvc_clamped_pad', pin 'VCCD_PAD', The pin 'VCCD_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 170, Cell 'sky130_ef_io__vccd_lvc_clamped_pad', pin 'VCCD_PAD', The 'VCCD_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 179, Cell 'sky130_ef_io__vccd_lvc_clamped_pad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30' read successfully
+Wrote the 'sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.db' successfully
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib' ...
+Information: Line 59, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 18, Overwrite 'nom_temperature' by default 'temperature' value 25.000000 defined
+        in 'operating_conditions'.  (LBDB-750)
+Warning: Line 159, Cell 'sky130_ef_io__vdda_hvc_clamped_pad', pin 'VDDA_PAD', The pin 'VDDA_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 159, Cell 'sky130_ef_io__vdda_hvc_clamped_pad', pin 'VDDA_PAD', The 'VDDA_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 168, Cell 'sky130_ef_io__vdda_hvc_clamped_pad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 176, Cell 'sky130_ef_io__vdda_hvc_clamped_pad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30' read successfully
+Wrote the 'sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db' successfully
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.lib' ...
+Information: Line 59, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 18, Overwrite 'nom_temperature' by default 'temperature' value 25.000000 defined
+        in 'operating_conditions'.  (LBDB-750)
+Warning: Line 159, Cell 'sky130_ef_io__vssa_hvc_clamped_pad', pin 'VSSA_PAD', The pin 'VSSA_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 159, Cell 'sky130_ef_io__vssa_hvc_clamped_pad', pin 'VSSA_PAD', The 'VSSA_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 168, Cell 'sky130_ef_io__vssa_hvc_clamped_pad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 176, Cell 'sky130_ef_io__vssa_hvc_clamped_pad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30' read successfully
+Wrote the 'sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db' successfully
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.lib' ...
+Information: Line 60, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 167, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'VSSD_PAD', The attribute 'always_on' has already been specified for 'pin' at line 162. Using the last definition encountered. (LBDB-261w)
+Warning: Line 160, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'VSSD_PAD', The port 'VSSD_PAD' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 160, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'VSSD_PAD', The port 'VSSD_PAD' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 160, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'VSSD_PAD', The pin 'VSSD_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 160, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'VSSD_PAD', The 'VSSD_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 172, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 172, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 172, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 182, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 182, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 182, Cell 'sky130_ef_io__vssd_lvc_clamped3_pad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30' read successfully
+Wrote the 'sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.db' successfully
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.lib' ...
+Information: Line 59, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 18, Overwrite 'nom_temperature' by default 'temperature' value 25.000000 defined
+        in 'operating_conditions'.  (LBDB-750)
+Warning: Line 173, Cell 'sky130_ef_io__vccd_lvc_clamped3_pad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 181, Cell 'sky130_ef_io__vccd_lvc_clamped3_pad', pin 'VCCD_PAD', The pin 'VCCD_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 181, Cell 'sky130_ef_io__vccd_lvc_clamped3_pad', pin 'VCCD_PAD', The 'VCCD_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 190, Cell 'sky130_ef_io__vccd_lvc_clamped3_pad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30' read successfully
+Wrote the 'sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.db' successfully
+Reading '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.lib' ...
+Information: Line 60, The 'always_on' attribute for pin group is official liberty syntax/already defined, this user define syntax is ignored. (LBDB-29)
+Warning: Line 156, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'VSSD_PAD', The attribute 'always_on' has already been specified for 'pin' at line 151. Using the last definition encountered. (LBDB-261w)
+Warning: Line 149, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'VSSD_PAD', The port 'VSSD_PAD' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 149, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'VSSD_PAD', The port 'VSSD_PAD' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 149, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'VSSD_PAD', The pin 'VSSD_PAD' does not have a internal_power group. (LBDB-607)
+Warning: Line 149, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'VSSD_PAD', The 'VSSD_PAD' pad pin is missing a 'drive_current' attribute. (LBDB-205)
+Warning: Line 161, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 161, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'AMUXBUS_A', The port 'AMUXBUS_A' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 161, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'AMUXBUS_A', The pin 'AMUXBUS_A' does not have a internal_power group. (LBDB-607)
+Warning: Line 171, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'rise_capacitance_range' specified. The value (0.069348, 0.069348) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 171, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'AMUXBUS_B', The port 'AMUXBUS_B' does not have the attribute 'fall_capacitance_range' specified. The value (0.071586, 0.071586) will be assigned to the attribute. (LBDB-1054)
+Warning: Line 171, Cell 'sky130_ef_io__vssd_lvc_clamped_pad', pin 'AMUXBUS_B', The pin 'AMUXBUS_B' does not have a internal_power group. (LBDB-607)
+Technology library 'sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30' read successfully
+Wrote the 'sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30' library to '/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/pdk/SKY130A/libs.ref/sky130_fd_io/lib/sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.db' successfully
+lc_shell> quit
+Maximum memory usage for this session: 131.14 MB
+CPU usage for this session:      2 seconds (  0.00 hours)
+Elapsed time for this session:    856 seconds (  0.24 hours)
+Thank you for using Library Compiler.
+

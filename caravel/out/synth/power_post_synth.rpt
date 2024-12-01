@@ -8,7 +8,7 @@ Report : power
         -analysis_effort low
 Design : caravel
 Version: T-2022.03-SP5-6
-Date   : Fri Nov 29 01:33:49 2024
+Date   : Sun Dec  1 01:37:54 2024
 ****************************************
 
 
@@ -34,12 +34,12 @@ Attributes
 i - Including register clock pin internal power
 
 
-  Cell Internal Power  =  35.3901 uW   (79%)
-  Net Switching Power  =   9.3753 uW   (21%)
+  Cell Internal Power  = 213.4023 uW    (2%)
+  Net Switching Power  =   8.5824 mW   (98%)
                          ---------
-Total Dynamic Power    =  44.7654 uW  (100%)
+Total Dynamic Power    =   8.7958 mW  (100%)
 
-Cell Leakage Power     = 174.7679 nW
+Cell Leakage Power     = 181.4624 nW
 
 
                  Internal         Switching           Leakage            Total
@@ -47,11 +47,11 @@ Power Group      Power            Power               Power              Power  
 --------------------------------------------------------------------------------------------------
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
-black_box          0.0000            0.0000            6.1702        6.1702e-06  (   0.01%)
-clock_network  3.5390e-02        8.6332e-03            0.5464        4.4024e-02  (  97.96%)  i
-register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
-sequential         0.0000            0.0000          108.7211        1.0872e-04  (   0.24%)
-combinational      0.0000        7.4208e-04           57.6251        7.9970e-04  (   1.78%)
+black_box      2.9941e-06            0.0000            6.1750        9.1691e-06  (   0.00%)
+clock_network      0.2111            7.6248           28.8174            7.8355  (  99.90%)  i
+register           0.0000        1.0524e-03           91.1184        1.1435e-03  (   0.01%)
+sequential         0.0000            0.0000        9.9446e-02            0.0000  (   0.00%)
+combinational  2.3476e-03        3.9847e-03           53.5470        6.3859e-03  (   0.08%)
 --------------------------------------------------------------------------------------------------
-Total          3.5390e-02 mW     9.3753e-03 mW       173.0629 nW     4.4938e-02 mW
+Total              0.2134 mW         7.6298 mW       179.7573 nW         7.8431 mW
 1
