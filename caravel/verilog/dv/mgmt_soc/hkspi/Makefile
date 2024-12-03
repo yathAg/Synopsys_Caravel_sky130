@@ -14,14 +14,14 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-PDK_PATH = $(PDK_ROOT)/$(PDK)
-VERILOG_PATH = ../../../..
+PDK_PATH = ../../../pdk/SKY130A
+VERILOG_PATH = ../..
 RTL_PATH = $(VERILOG_PATH)/rtl
 BEHAVIOURAL_MODELS = ../../ 
 RISCV_TYPE ?= rv32imc
 
 FIRMWARE_PATH = ../..
-GCC_PATH?=/ef/apps/bin
+GCC_PATH?=/home/yatharth/riscv_gcc
 GCC_PREFIX?=riscv32-unknown-elf
 
 SIM_DEFINES = -DFUNCTIONAL -DSIM
@@ -70,19 +70,19 @@ endif
 	${GCC_PATH}/${GCC_PREFIX}-objcopy -O binary $< /dev/stdout | tail -c +1048577 > $@
 
 check-env:
-ifndef PDK_ROOT
-	$(error PDK_ROOT is undefined, please export it before running make)
-endif
-ifeq (,$(wildcard $(PDK_ROOT)/$(PDK)))
-	$(error $(PDK_ROOT)/$(PDK) not found, please install pdk before running make)
-endif
-ifeq (,$(wildcard $(GCC_PATH)/$(GCC_PREFIX)-gcc ))
-	$(error $(GCC_PATH)/$(GCC_PREFIX)-gcc is not found, please export GCC_PATH and GCC_PREFIX before running make)
-endif
+# ifndef PDK_ROOT
+# 	$(error PDK_ROOT is undefined, please export it before running make)
+# endif
+# ifeq (,$(wildcard $(PDK_ROOT)/$(PDK)))
+# 	$(error $(PDK_ROOT)/$(PDK) not found, please install pdk before running make)
+# endif
+# ifeq (,$(wildcard $(GCC_PATH)/$(GCC_PREFIX)-gcc ))
+# 	$(error $(GCC_PATH)/$(GCC_PREFIX)-gcc is not found, please export GCC_PATH and GCC_PREFIX before running make)
+# endif
 # check for efabless style installation
-ifeq (,$(wildcard $(PDK_ROOT)/$(PDK)/libs.ref/*/verilog))
-SIM_DEFINES := ${SIM_DEFINES} -DEF_STYLE
-endif
+# ifeq (,$(wildcard $(PDK_ROOT)/$(PDK)/libs.ref/*/verilog))
+# SIM_DEFINES := ${SIM_DEFINES} -DEF_STYLE
+# endif
 # ---- Clean ----
 
 clean:

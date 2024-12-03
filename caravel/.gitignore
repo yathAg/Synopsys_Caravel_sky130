@@ -1,5 +1,3 @@
-pdk/scl180/stdlib
-pdk/scl180/iolib
 /*.log
 /*.svf
 /*.txt
@@ -7,3 +5,7 @@ pdk/scl180/iolib
 /*.pvl
 /*.syn
 /*.mr
+
+/alib-52
+
+**/verify.log
