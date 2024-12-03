@@ -10,7 +10,6 @@ run_synthesis:
 
 # Target to clean generated files
 clean:
-	rm -f $(LOG_FILE) 
 	rm -f *.log
 	rm -f *.pvl
 	rm -f *.syn

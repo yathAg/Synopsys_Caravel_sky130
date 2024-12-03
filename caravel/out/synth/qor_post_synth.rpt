@@ -64,19 +64,6 @@ The libraries that have been searched for suitable lib_cells are:
   sky130_fd_sc_hvl__tt_025C_3v30.db:sky130_fd_sc_hvl__tt_025C_3v30 (Voltage=3.300000V, Process=1.000000, Temperature =25.000000)
   sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib.db:sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
   sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db:sky130_fd_sc_hvl__tt_025C_3v30_lv1v80 (Voltage=3.300000V, Process=1.000000, Temperature =25.000000)
-  sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db:sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db:sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db:sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.db:sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =100.000000)
-  sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.db:sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.db:sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.db:sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.db:sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
-  sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.db:sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
   gtech.db:gtech (Voltage=5.000000V, Process=1.000000, Temperature =25.000000)
 
 Information: Updating design information... (UID-85)
@@ -600,7 +587,7 @@ Information: Input delay ('rise') on clock port 'hkspi_clk' will be added to the
 Report : qor
 Design : caravel
 Version: T-2022.03-SP5-6
-Date   : Sun Dec  1 01:37:43 2024
+Date   : Sun Dec  1 03:02:28 2024
 ****************************************
 
 
