@@ -1,20 +1,29 @@
-Warning: Design 'caravel' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'caravel' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Information: Checking out the license 'DesignWare'. (SEC-104)
 Information: Changed wire load model for 'alt1' from '(none)' to 'Small'. (OPT-170)
 Information: Changed wire load model for 'astr' from '(none)' to 'Small'. (OPT-170)
 Information: Changed wire load model for 'alt1' from '(none)' to 'Small'. (OPT-170)
 Information: Changed wire load model for 'astr' from '(none)' to 'Small'. (OPT-170)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/mgmt_vddio_hvclamp_pad[0] (sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30:sky130_ef_io__vddio_hvc_clamped_pad).   (LIBSETUP-751)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/mgmt_vddio_hvclamp_pad[1] (sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30:sky130_ef_io__vddio_hvc_clamped_pad).   (LIBSETUP-751)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/mgmt_vdda_hvclamp_pad (sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30:sky130_ef_io__vdda_hvc_clamped_pad).   (LIBSETUP-751)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/mgmt_vccd_lvclamp_pad (sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30:sky130_ef_io__vccd_lvc_clamped_pad).   (LIBSETUP-751)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/mgmt_vssio_hvclamp_pad[0] (sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30:sky130_ef_io__vssio_hvc_clamped_pad).   (LIBSETUP-751)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/mgmt_vssio_hvclamp_pad[1] (sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30:sky130_ef_io__vssio_hvc_clamped_pad).   (LIBSETUP-751)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/mgmt_vssa_hvclamp_pad (sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30:sky130_ef_io__vssa_hvc_clamped_pad).   (LIBSETUP-751)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/mgmt_vssd_lvclamp_pad (sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30:sky130_ef_io__vssd_lvc_clamped_pad).   (LIBSETUP-751)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/user1_vdda_hvclamp_pad[0] (sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30:sky130_ef_io__vdda_hvc_clamped_pad).   (LIBSETUP-751)
+Information: Apply operating condition old:tt_025C_1v80 -> new:tt_1.80_3.30_3.30_025 (voltage = [VDDA:3.30 VSWITCH:3.30 VDDIO:3.30 VDDIO_Q:3.30 VCCD:1.80 ...], process = 1.000000, temperature = 25.000000) to cell padframe/user1_vdda_hvclamp_pad[1] (sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30:sky130_ef_io__vdda_hvc_clamped_pad).   (LIBSETUP-751)
 Information: Library cell 'sky130_fd_sc_hd__decap_12' has been identified as a cell with insulated bias well(s). (UPF-710)
 Note - message 'UPF-710' limit (1) exceeded.  Remainder will be suppressed.
-Information: Building the design 'chip_io'. (HDL-193)
-Warning: Cannot find the design 'chip_io' in the library 'WORK'. (LBR-1)
+Information: A total of 57 operating conditions have been inferred.  (LIBSETUP-754)
 Information: Building the design 'simple_por'. (HDL-193)
-Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:39: The statements in initial blocks are ignored. (VER-281)
-Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:56: Net inode or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/verilog/rtl/simple_por.v:39: The statements in initial blocks are ignored. (VER-281)
+Warning:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/verilog/rtl/simple_por.v:56: Net inode or a directly connected net may be driven by more than one process or block. (ELAB-405)
 
 Inferred memory devices in process
 	in routine simple_por line 48 in file
-		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v'.
+		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/verilog/rtl/simple_por.v'.
 ===============================================================================
 |    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
 ===============================================================================
@@ -23,29 +32,16 @@ Inferred memory devices in process
 
 Inferred memory devices in process
 	in routine simple_por line 56 in file
-		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v'.
+		'/home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/verilog/rtl/simple_por.v'.
 ===============================================================================
 |    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
 ===============================================================================
 |     inode_reg2      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
 ===============================================================================
-Error:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/rtl/simple_por.v:56: Net 'inode' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /home/yatharth/vsd_sfal/Synopsys_Caravel_sky130/caravel/verilog/rtl/simple_por.v:56: Net 'inode' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
 *** Presto compilation terminated with 1 errors. ***
-Information: Building the design 'sky130_fd_sc_hd__tapvpwrvgnd'. (HDL-193)
-Warning: Cannot find the design 'sky130_fd_sc_hd__tapvpwrvgnd' in the library 'WORK'. (LBR-1)
-Information: Building the design 'sky130_fd_sc_hd__fill_2'. (HDL-193)
-Warning: Cannot find the design 'sky130_fd_sc_hd__fill_2' in the library 'WORK'. (LBR-1)
-Warning: Unable to resolve reference 'chip_io' in 'caravel'. (LINK-5)
 Warning: Unable to resolve reference 'simple_por' in 'caravel_core'. (LINK-5)
-Warning: Unable to resolve reference 'sky130_fd_sc_hd__tapvpwrvgnd' in 'sky130_fd_sc_hd__tapvpwrvgnd_1'. (LINK-5)
-Warning: Unable to resolve reference 'sky130_fd_sc_hd__fill_2' in 'RAM128'. (LINK-5)
 Warning: No operating condition has been set explicitly on the current design. A default operating condition will be assumed. (MV-028)
-Warning: There is no matching operating condition voltage or no supply net to match the voltage level on
-	PG pin (LVPWR, 1.800000) of level shifter chip_core/rstb_level/lvlshiftdown 
-	 (library cell: sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db:sky130_fd_sc_hvl__tt_025C_3v30_lv1v80/sky130_fd_sc_hvl__lsbufhv2lv_1). (LIBSETUP-051)
-Warning: There is no matching operating condition voltage or no supply net to match the voltage level on
-	 input_signal_level (VPWR, 3.300000) on pin A of level shifter chip_core/rstb_level/lvlshiftdown 
-	 (library cell: sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db:sky130_fd_sc_hvl__tt_025C_3v30_lv1v80/sky130_fd_sc_hvl__lsbufhv2lv_1). (LIBSETUP-052)
 Warning: There is no matching operating condition voltage or no supply net to match the voltage level on
 	PG pin (LVPWR, 1.800000) of level shifter chip_core/mgmt_buffers/powergood_check/mprj_logic_high_lv 
 	 (library cell: sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db:sky130_fd_sc_hvl__tt_025C_3v30_lv1v80/sky130_fd_sc_hvl__lsbufhv2lv_1). (LIBSETUP-051)
@@ -58,25 +54,37 @@ Warning: There is no matching operating condition voltage or no supply net to ma
 Warning: There is no matching operating condition voltage or no supply net to match the voltage level on
 	 input_signal_level (VPWR, 3.300000) on pin A of level shifter chip_core/mgmt_buffers/powergood_check/mprj2_logic_high_lv 
 	 (library cell: sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db:sky130_fd_sc_hvl__tt_025C_3v30_lv1v80/sky130_fd_sc_hvl__lsbufhv2lv_1). (LIBSETUP-052)
-Error: A total of 3 cells have been detected with operating condition problems (LIBSETUP-050/051/052/053/054); 3 of them have been reported above. Delay calculation will be incorrect if these problems are not fixed. Please run check_mv_design to see more details. (LIBSETUP-022)
+Error: A total of 2 cells have been detected with operating condition problems (LIBSETUP-050/051/052/053/054); 2 of them have been reported above. Delay calculation will be incorrect if these problems are not fixed. Please run check_mv_design to see more details. (LIBSETUP-022)
 The libraries that have been searched for suitable lib_cells are:
   sky130_fd_sc_hd__tt_025C_1v80.db:sky130_fd_sc_hd__tt_025C_1v80 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
   sky130_fd_sc_hvl__tt_025C_3v30.db:sky130_fd_sc_hvl__tt_025C_3v30 (Voltage=3.300000V, Process=1.000000, Temperature =25.000000)
   sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib.db:sram_1rw1r_32_256_8_sky130_TT_1p8V_25C_lib (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
   sky130_fd_sc_hvl__tt_025C_3v30_lv1v80.db:sky130_fd_sc_hvl__tt_025C_3v30_lv1v80 (Voltage=3.300000V, Process=1.000000, Temperature =25.000000)
+  sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30.db:sky130_fd_io__top_gpiov2_tt_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30.db:sky130_fd_io__top_ground_hvc_wpad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30.db:sky130_fd_io__top_ground_lvc_wpad_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30.db:sky130_fd_io__top_ground_lvc_wpad_tt_100C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =100.000000)
+  sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30.db:sky130_fd_io__top_power_lvc_wpad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30.db:sky130_fd_io__top_xres4v2_tt_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30.db:sky130_ef_io__gpiov2_pad_tt_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vccd_lvc_clamped_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vdda_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vssa_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30.db:sky130_ef_io__vssd_lvc_clamped3_pad_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vccd_lvc_clamped3_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30.db:sky130_ef_io__vssd_lvc_clamped_pad_tt_025C_1v80_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vddio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30.db:sky130_ef_io__vssio_hvc_clamped_pad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
+  sky130_fd_io__top_power_hvc_wpad_tt_025C_1v80_3v30_3v30.db:sky130_fd_io__top_power_hvc_wpad_tt_025C_1v80_3v30_3v30 (Voltage=1.800000V, Process=1.000000, Temperature =25.000000)
   gtech.db:gtech (Voltage=5.000000V, Process=1.000000, Temperature =25.000000)
 
 Information: Updating design information... (UID-85)
 Warning: Design 'caravel' contains 7 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
 Information: Timing loop detected. (OPT-150)
-	chip_core/housekeeping/wbbd_sck_reg/clocked_on chip_core/housekeeping/wbbd_sck_reg/Q chip_core/housekeeping/C19359/DATA1_0 chip_core/housekeeping/C19359/Z_0 chip_core/housekeeping/pll_ena_reg/clocked_on chip_core/housekeeping/pll_ena_reg/Q chip_core/pll/I_2/A chip_core/pll/I_2/Z chip_core/pll/C48/B chip_core/pll/C48/Z chip_core/pll/ringosc/iss/reseten0/TE chip_core/pll/ringosc/iss/reseten0/Z chip_core/pll/ringosc/dstage[0].id/delaybuf0/A chip_core/pll/ringosc/dstage[0].id/delaybuf0/X chip_core/pll/ringosc/dstage[0].id/delayenb0/A chip_core/pll/ringosc/dstage[0].id/delayenb0/Z chip_core/pll/ringosc/dstage[1].id/delaybuf0/A chip_core/pll/ringosc/dstage[1].id/delaybuf0/X chip_core/pll/ringosc/dstage[1].id/delayenb0/A chip_core/pll/ringosc/dstage[1].id/delayenb0/Z chip_core/pll/ringosc/dstage[2].id/delaybuf0/A chip_core/pll/ringosc/dstage[2].id/delaybuf0/X chip_core/pll/ringosc/dstage[2].id/delayenb0/A chip_core/pll/ringosc/dstage[2].id/delayenb0/Z chip_core/pll/ringosc/dstage[3].id/delaybuf0/A chip_core/pll/ringosc/dstage[3].id/delaybuf0/X chip_core/pll/ringosc/dstage[3].id/delayenb0/A chip_core/pll/ringosc/dstage[3].id/delayenb0/Z chip_core/pll/ringosc/dstage[4].id/delaybuf0/A chip_core/pll/ringosc/dstage[4].id/delaybuf0/X chip_core/pll/ringosc/dstage[4].id/delayenb0/A chip_core/pll/ringosc/dstage[4].id/delayenb0/Z chip_core/pll/ringosc/dstage[5].id/delaybuf0/A chip_core/pll/ringosc/dstage[5].id/delaybuf0/X chip_core/pll/ringosc/dstage[5].id/delayenb0/A chip_core/pll/ringosc/dstage[5].id/delayenb0/Z chip_core/pll/ringosc/ibufp10/A chip_core/pll/ringosc/ibufp10/Y chip_core/pll/ringosc/ibufp11/A chip_core/pll/ringosc/ibufp11/Y chip_core/pll/clockp_buffer_1/A chip_core/pll/clockp_buffer_1/X chip_core/clock_ctrl/divider/odd_0/I_8/A chip_core/clock_ctrl/divider/odd_0/I_8/Z chip_core/clock_ctrl/divider/odd_0/out_counter2_reg/clocked_on chip_core/clock_ctrl/divider/odd_0/out_counter2_reg/Q chip_core/clock_ctrl/divider/odd_0/C160/A chip_core/clock_ctrl/divider/odd_0/C160/Z chip_core/clock_ctrl/divider/C32/A chip_core/clock_ctrl/divider/C32/Z chip_core/clock_ctrl/divider/C31/A chip_core/clock_ctrl/divider/C31/Z chip_core/clock_ctrl/divider/C30/A chip_core/clock_ctrl/divider/C30/Z chip_core/clock_ctrl/C53/DATA1_0 chip_core/clock_ctrl/C53/Z_0 
+	chip_core/housekeeping/pll_ena_reg/clocked_on chip_core/housekeeping/pll_ena_reg/Q chip_core/pll/I_2/A chip_core/pll/I_2/Z chip_core/pll/C48/B chip_core/pll/C48/Z chip_core/pll/ringosc/iss/reseten0/TE chip_core/pll/ringosc/iss/reseten0/Z chip_core/pll/ringosc/dstage[0].id/delaybuf0/A chip_core/pll/ringosc/dstage[0].id/delaybuf0/X chip_core/pll/ringosc/dstage[0].id/delayenb0/A chip_core/pll/ringosc/dstage[0].id/delayenb0/Z chip_core/pll/ringosc/dstage[1].id/delaybuf0/A chip_core/pll/ringosc/dstage[1].id/delaybuf0/X chip_core/pll/ringosc/dstage[1].id/delayenb0/A chip_core/pll/ringosc/dstage[1].id/delayenb0/Z chip_core/pll/ringosc/dstage[2].id/delaybuf0/A chip_core/pll/ringosc/dstage[2].id/delaybuf0/X chip_core/pll/ringosc/dstage[2].id/delayenb0/A chip_core/pll/ringosc/dstage[2].id/delayenb0/Z chip_core/pll/ringosc/dstage[3].id/delaybuf0/A chip_core/pll/ringosc/dstage[3].id/delaybuf0/X chip_core/pll/ringosc/dstage[3].id/delayenb0/A chip_core/pll/ringosc/dstage[3].id/delayenb0/Z chip_core/pll/ringosc/dstage[4].id/delaybuf0/A chip_core/pll/ringosc/dstage[4].id/delaybuf0/X chip_core/pll/ringosc/dstage[4].id/delayenb0/A chip_core/pll/ringosc/dstage[4].id/delayenb0/Z chip_core/pll/ringosc/dstage[5].id/delaybuf0/A chip_core/pll/ringosc/dstage[5].id/delaybuf0/X chip_core/pll/ringosc/dstage[5].id/delayenb0/A chip_core/pll/ringosc/dstage[5].id/delayenb0/Z chip_core/pll/ringosc/ibufp10/A chip_core/pll/ringosc/ibufp10/Y chip_core/pll/ringosc/ibufp11/A chip_core/pll/ringosc/ibufp11/Y chip_core/pll/clockp_buffer_1/A chip_core/pll/clockp_buffer_1/X chip_core/clock_ctrl/divider/odd_0/I_8/A chip_core/clock_ctrl/divider/odd_0/I_8/Z chip_core/clock_ctrl/divider/odd_0/out_counter2_reg/clocked_on chip_core/clock_ctrl/divider/odd_0/out_counter2_reg/Q chip_core/clock_ctrl/divider/odd_0/C160/A chip_core/clock_ctrl/divider/odd_0/C160/Z chip_core/clock_ctrl/divider/C32/A chip_core/clock_ctrl/divider/C32/Z chip_core/clock_ctrl/divider/C31/A chip_core/clock_ctrl/divider/C31/Z chip_core/clock_ctrl/divider/C30/A chip_core/clock_ctrl/divider/C30/Z chip_core/clock_ctrl/C53/DATA1_0 chip_core/clock_ctrl/C53/Z_0 chip_core/housekeeping/wbbd_sck_reg/clocked_on chip_core/housekeeping/wbbd_sck_reg/Q chip_core/housekeeping/C19359/DATA1_0 chip_core/housekeeping/C19359/Z_0 
 Information: Timing loop detected. (OPT-150)
-	chip_core/housekeeping/wbbd_busy_reg/clocked_on chip_core/housekeeping/wbbd_busy_reg/Q chip_core/housekeeping/B_62/A chip_core/housekeeping/B_62/Z chip_core/housekeeping/C19359/CONTROL1_0 chip_core/housekeeping/C19359/Z_0 chip_core/housekeeping/pll_ena_reg/clocked_on chip_core/housekeeping/pll_ena_reg/Q chip_core/pll/I_2/A chip_core/pll/I_2/Z chip_core/pll/C48/B chip_core/pll/C48/Z chip_core/pll/ringosc/iss/reseten0/TE chip_core/pll/ringosc/iss/reseten0/Z chip_core/pll/ringosc/dstage[0].id/delaybuf0/A chip_core/pll/ringosc/dstage[0].id/delaybuf0/X chip_core/pll/ringosc/dstage[0].id/delayenb0/A chip_core/pll/ringosc/dstage[0].id/delayenb0/Z chip_core/pll/ringosc/dstage[1].id/delaybuf0/A chip_core/pll/ringosc/dstage[1].id/delaybuf0/X chip_core/pll/ringosc/dstage[1].id/delayenb0/A chip_core/pll/ringosc/dstage[1].id/delayenb0/Z chip_core/pll/ringosc/dstage[2].id/delaybuf0/A chip_core/pll/ringosc/dstage[2].id/delaybuf0/X chip_core/pll/ringosc/dstage[2].id/delayenb0/A chip_core/pll/ringosc/dstage[2].id/delayenb0/Z chip_core/pll/ringosc/dstage[3].id/delaybuf0/A chip_core/pll/ringosc/dstage[3].id/delaybuf0/X chip_core/pll/ringosc/dstage[3].id/delayenb0/A chip_core/pll/ringosc/dstage[3].id/delayenb0/Z chip_core/pll/ringosc/dstage[4].id/delaybuf0/A chip_core/pll/ringosc/dstage[4].id/delaybuf0/X chip_core/pll/ringosc/dstage[4].id/delayenb0/A chip_core/pll/ringosc/dstage[4].id/delayenb0/Z chip_core/pll/ringosc/dstage[5].id/delaybuf0/A chip_core/pll/ringosc/dstage[5].id/delaybuf0/X chip_core/pll/ringosc/dstage[5].id/delayenb0/A chip_core/pll/ringosc/dstage[5].id/delayenb0/Z chip_core/pll/ringosc/ibufp10/A chip_core/pll/ringosc/ibufp10/Y chip_core/pll/ringosc/ibufp11/A chip_core/pll/ringosc/ibufp11/Y chip_core/pll/clockp_buffer_1/A chip_core/pll/clockp_buffer_1/X chip_core/clock_ctrl/divider/odd_0/I_8/A chip_core/clock_ctrl/divider/odd_0/I_8/Z chip_core/clock_ctrl/divider/odd_0/out_counter2_reg/clocked_on chip_core/clock_ctrl/divider/odd_0/out_counter2_reg/Q chip_core/clock_ctrl/divider/odd_0/C160/A chip_core/clock_ctrl/divider/odd_0/C160/Z chip_core/clock_ctrl/divider/C32/A chip_core/clock_ctrl/divider/C32/Z chip_core/clock_ctrl/divider/C31/A chip_core/clock_ctrl/divider/C31/Z chip_core/clock_ctrl/divider/C30/A chip_core/clock_ctrl/divider/C30/Z chip_core/clock_ctrl/C53/DATA1_0 chip_core/clock_ctrl/C53/Z_0 
-Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'chip_core/pll/C48'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'chip_core/housekeeping/C19487'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'chip_core/housekeeping/C19487'
+	chip_core/pll/ringosc/dstage[6].id/delaybuf0/A chip_core/pll/ringosc/dstage[6].id/delaybuf0/X chip_core/pll/ringosc/dstage[6].id/delayenb0/A chip_core/pll/ringosc/dstage[6].id/delayenb0/Z chip_core/pll/ringosc/dstage[7].id/delaybuf0/A chip_core/pll/ringosc/dstage[7].id/delaybuf0/X chip_core/pll/ringosc/dstage[7].id/delayenb0/A chip_core/pll/ringosc/dstage[7].id/delayenb0/Z chip_core/pll/ringosc/dstage[8].id/delaybuf0/A chip_core/pll/ringosc/dstage[8].id/delaybuf0/X chip_core/pll/ringosc/dstage[8].id/delayenb0/A chip_core/pll/ringosc/dstage[8].id/delayenb0/Z chip_core/pll/ringosc/dstage[9].id/delaybuf0/A chip_core/pll/ringosc/dstage[9].id/delaybuf0/X chip_core/pll/ringosc/dstage[9].id/delayenb0/A chip_core/pll/ringosc/dstage[9].id/delayenb0/Z chip_core/pll/ringosc/dstage[10].id/delaybuf0/A chip_core/pll/ringosc/dstage[10].id/delaybuf0/X chip_core/pll/ringosc/dstage[10].id/delayenb0/A chip_core/pll/ringosc/dstage[10].id/delayenb0/Z chip_core/pll/ringosc/dstage[11].id/delaybuf0/A chip_core/pll/ringosc/dstage[11].id/delaybuf0/X chip_core/pll/ringosc/dstage[11].id/delayenb0/A chip_core/pll/ringosc/dstage[11].id/delayenb0/Z chip_core/pll/ringosc/iss/delayenb0/A chip_core/pll/ringosc/iss/delayenb0/Z chip_core/pll/ringosc/dstage[0].id/delaybuf0/A chip_core/pll/ringosc/dstage[0].id/delaybuf0/X chip_core/pll/ringosc/dstage[0].id/delayenb0/A chip_core/pll/ringosc/dstage[0].id/delayenb0/Z chip_core/pll/ringosc/dstage[1].id/delaybuf0/A chip_core/pll/ringosc/dstage[1].id/delaybuf0/X chip_core/pll/ringosc/dstage[1].id/delayenb0/A chip_core/pll/ringosc/dstage[1].id/delayenb0/Z chip_core/pll/ringosc/dstage[2].id/delaybuf0/A chip_core/pll/ringosc/dstage[2].id/delaybuf0/X chip_core/pll/ringosc/dstage[2].id/delayenb0/A chip_core/pll/ringosc/dstage[2].id/delayenb0/Z chip_core/pll/ringosc/dstage[3].id/delaybuf0/A chip_core/pll/ringosc/dstage[3].id/delaybuf0/X chip_core/pll/ringosc/dstage[3].id/delayenb0/A chip_core/pll/ringosc/dstage[3].id/delayenb0/Z chip_core/pll/ringosc/dstage[4].id/delaybuf0/A chip_core/pll/ringosc/dstage[4].id/delaybuf0/X chip_core/pll/ringosc/dstage[4].id/delayenb0/A chip_core/pll/ringosc/dstage[4].id/delayenb0/Z chip_core/pll/ringosc/dstage[5].id/delaybuf0/A chip_core/pll/ringosc/dstage[5].id/delaybuf0/X chip_core/pll/ringosc/dstage[5].id/delayenb0/A chip_core/pll/ringosc/dstage[5].id/delayenb0/Z 
+Warning: Disabling timing arc between pins 'DATA1_0' and 'Z_0' on cell 'chip_core/housekeeping/C19359'
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'chip_core/pll/ringosc/dstage[6].id/delayenb0'
          to break a timing loop. (OPT-314)
@@ -101,6 +109,12 @@ Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'chip_core/clock_
 Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'chip_core/clock_ctrl/divider/C29'
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'chip_core/clock_ctrl/divider/C29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'INP_DIS' and 'IN' on cell 'padframe/mprj_pads/area1_io_pad[4]'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CONTROL2_0' and 'Z_0' on cell 'chip_core/housekeeping/C19359'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CONTROL1_0' and 'Z_0' on cell 'chip_core/housekeeping/C19359'
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'chip_core/pll/pll_control/C288'
          to break a timing loop. (OPT-314)
@@ -142,6 +156,12 @@ Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'chip_core/pll/ri
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'chip_core/clock_ctrl/divider/C33'
          to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'CONTROL3_0' and 'Z_0' on cell 'chip_core/housekeeping/C19359'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'INP_DIS' and 'IN' on cell 'padframe/mprj_pads/area1_io_pad[3]'
+         to break a timing loop (originally by case_analysis). (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'chip_core/housekeeping/C19490'
+         to break a timing loop (originally by case_analysis). (OPT-314)
 Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'chip_core/pll/pll_control/C287'
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'chip_core/pll/pll_control/C299'
@@ -376,196 +396,6 @@ Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'chip_core/pll/pl
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'chip_core/pll/pll_control/C467'
          to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[6].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[6].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[6].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[6].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[6].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[6].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[6].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[6].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[7].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[7].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[7].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[7].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[7].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[7].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[7].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[7].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[8].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[8].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[8].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[8].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[8].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[8].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[8].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[8].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[9].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[9].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[9].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[9].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[9].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[9].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[9].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[9].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[10].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[10].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[10].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[10].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[10].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[10].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[10].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[10].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[11].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[11].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[11].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[11].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'B' and 'X' on cell 'chip_core/pll/ringosc/iss/ctrlen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/iss/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/iss/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[0].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[0].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[0].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[0].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[0].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[0].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[0].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[0].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[1].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[1].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[1].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[1].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[1].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[1].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[1].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[1].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[2].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[2].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[2].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[2].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[2].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[2].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[2].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[2].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[3].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[3].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[3].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[3].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[3].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[3].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[3].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[3].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[4].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[4].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[4].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[4].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[4].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[4].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[4].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[4].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[5].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[5].id/delayenb0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[5].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE_B' and 'Z' on cell 'chip_core/pll/ringosc/dstage[5].id/delayenb1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[5].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[5].id/delayen1'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[5].id/delayen0'
-         to break a timing loop. (OPT-314)
-Warning: Disabling timing arc between pins 'TE' and 'Z' on cell 'chip_core/pll/ringosc/dstage[5].id/delayen0'
-         to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'B' and 'Z' on cell 'chip_core/clock_ctrl/divider2/C32'
          to break a timing loop. (OPT-314)
 Warning: Disabling timing arc between pins 'A' and 'Z' on cell 'chip_core/clock_ctrl/divider2/C29'
@@ -587,7 +417,7 @@ Information: Input delay ('rise') on clock port 'hkspi_clk' will be added to the
 Report : qor
 Design : caravel
 Version: T-2022.03-SP5-6
-Date   : Sun Dec  1 03:02:28 2024
+Date   : Wed Dec  4 04:50:12 2024
 ****************************************
 
 
@@ -604,42 +434,55 @@ Date   : Sun Dec  1 03:02:28 2024
   No. of Hold Violations:      456.00
   -----------------------------------
 
+  Timing Path Group 'hkspi_clk'
+  -----------------------------------
+  Levels of Logic:               5.00
+  Critical Path Length:         43.83
+  Critical Path Slack:          -0.53
+  Critical Path Clk Period:    100.00
+  Total Negative Slack:         -0.53
+  No. of Violating Paths:        1.00
+  Worst Hold Violation:         -0.58
+  Total Hold Violation:       -650.78
+  No. of Hold Violations:     1202.00
+  -----------------------------------
+
 
   Cell Count
   -----------------------------------
-  Hierarchical Cell Count:      17653
-  Hierarchical Port Count:      32263
-  Leaf Cell Count:             112552
-  Buf/Inv Cell Count:           11434
-  Buf Cell Count:                3968
+  Hierarchical Cell Count:      17725
+  Hierarchical Port Count:      33708
+  Leaf Cell Count:             112633
+  Buf/Inv Cell Count:           11448
+  Buf Cell Count:                3982
   Inv Cell Count:                7466
-  CT Buf/Inv Cell Count:          110
-  Combinational Cell Count:     91144
-  Sequential Cell Count:        21408
-  Macro Count:                      0
+  CT Buf/Inv Cell Count:          112
+  Combinational Cell Count:     91186
+  Sequential Cell Count:        21447
+  Macro Count:                     57
   -----------------------------------
 
 
   Area
   -----------------------------------
-  Combinational Area:    60345.218658
+  Combinational Area:    60756.863451
   Noncombinational Area:
                         362752.907244
-  Buf/Inv Area:          34757.084210
-  Total Buffer Area:         23029.59
+  Buf/Inv Area:          35142.453805
+  Total Buffer Area:         23414.96
   Total Inverter Area:       11727.50
-  Macro/Black Box Area:  30286.546249
+  Macro/Black Box Area: 884836.546249
   Net Area:                  0.000000
   -----------------------------------
-  Cell Area:            453384.672151
-  Design Area:          453384.672151
+  Cell Area:           1308346.316945
+  Design Area:         1308346.316945
 
 
   Design Rules
   -----------------------------------
-  Total Number of Nets:         85515
-  Nets With Violations:           773
-  Max Trans Violations:             0
+  Total Number of Nets:        152310
+  Nets With Violations:           810
+  Max Trans Violations:            37
   Max Cap Violations:               0
   Max Fanout Violations:          773
   -----------------------------------
@@ -658,10 +501,10 @@ Date   : Sun Dec  1 03:02:28 2024
 
   --------------------------------------------------------------------
 
-  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+  Design  WNS: 0.53  TNS: 0.53  Number of Violating Paths: 1
 
 
-  Design (Hold)  WNS: 0.25  TNS: 79.03  Number of Violating Paths: 456
+  Design (Hold)  WNS: 0.58  TNS: 729.82  Number of Violating Paths: 1658
 
   --------------------------------------------------------------------
 

@@ -23,6 +23,8 @@
  * the analog pads.
  */
 
+`default_nettype wire
+
 module mprj_io #(
     parameter AREA1PADS = `MPRJ_IO_PADS_1,
     parameter TOTAL_PADS = `MPRJ_IO_PADS
